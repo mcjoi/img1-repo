@@ -33,6 +33,14 @@
       "md": "helloworld344.md"
     },
     {
+      "slug": "helloworld346",
+      "title": "Flutter Web로 블로그 만들기",
+      "date": "2025-01-20",
+      "excerpt": "Flutter Web과 GitHub Pages를 이용한 MD 기반 블로그 구축기",
+      "cover": "https://picsum.photos/800/400",
+      "md": "helloworld346.md"
+    },
+    {
       "slug": "helloworld345",
       "title": "Flutter Web로 블로그 만들기",
       "date": "2025-01-20",
