@@ -1,0 +1,44 @@
+---
+### essential info 
+title: Windows Desktop Shortcut - flutter
+slug: 03002
+date: 2025-12-22
+cover: https://picsum.photos/800/400
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
+category: development
+tags:
+  - flutter
+  - windows
+draft: false
+# order: 10
+---
+
+
+## Inspiration
+Organizing and keeping track of countless applications, folders, and web URLs scattered across Windows can be a tedious task. In that sense, Rainmeter is an excellent tool, offering a sleek way to manage and access resources directly from your desktop.  
+
+That said, there’s one drawback: adding new bookmarks is unnecessarily cumbersome. Of course, it’s understandable, since bookmark management was never intended to be one of Rainmeter’s core features.  
+
+Wouldn’t it be possible to build a simple, lightweight Flutter Windows application that provides just the essential functionality for quick and convenient bookmark management?  
+***
+
+## Structure
+I’ve already built the layout I wanted using Rainmeter, and it works perfectly fine for browsing my existing bookmarks. There’s no inconvenience when using them—my only frustration comes from how cumbersome it is to add or edit new bookmarks.  
+
+In the mockup below, the left side shows my current Rainmeter setup, while the right side illustrates the layout I’m considering implementing in Flutter. Since debugging will be necessary, I intentionally kept the window size compact rather than full-screen.  
+
+To simplify things, I don’t want to implement any in-app input fields. Instead, the application would rely on an accompanying JSON file for managing bookmarks. The horizontal width of the app would remain fixed, while the vertical height should automatically adjust based on the number of bookmarks.  
+
+Additionally, because icons alone can be ambiguous, I want to provide tooltip text that appears when hovering over each icon, so I can quickly recall what it represents.  
+
+That’s the overall concept I have in mind for this Flutter Windows app.  
+***
+
+## Result
+!["image"](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/05002/d_shortcut.webp "image")
+
+
+***

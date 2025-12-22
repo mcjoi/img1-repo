@@ -1,0 +1,92 @@
+---
+### essential info 
+title: Webp Convert Program
+slug: 02001
+date: 2025-12-22
+cover: https://picsum.photos/800/400
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
+category: development
+tags:
+  - python
+  - windows
+draft: false
+# order: 10
+---
+
+# WebP Conversion Program
+## What is it?
+I once wrote about converting images to WebP for blog image optimization. However, uploading images online for conversion every time is a bit inconvenient, and using Photoshop for this is also not ideal.
+
+I downloaded a conversion program from the Google Dev site, but it requires entering commands in the CMD each time. This is also tedious, so I decided to create a simple Python program. I set up the program as shown below, making sure that Python is added to the Windows PATH so it can be run from anywhere.
+
+{{< hint warning >}}
+python.py   ← The Python script file  
+<br> 
+└── libwebp-1.4.0-windows-x64  ← Folder containing the WebP library  
+{{< /hint >}}
+
+
+
+
+By placing a batch file on the desktop (or anywhere else), you can easily execute the Python program. Just make sure the required Python packages are installed in advance.
+
+When you run it, the first file explorer window will let you select the file you want to convert, and the second will let you choose the folder where the converted file will be saved. Of course, you can also tweak the code to fix the target folder to any location you prefer.
+
+
+## sample code
+
+```python
+import os
+import tkinter
+from tkinter import filedialog
+
+from PIL import Image
+from PIL.ExifTags import TAGS
+
+def get_image_width(image_path):
+    # Open the image
+    with Image.open(image_path) as img:
+        # Get the width
+        return img.width            
+
+if __name__ == '__main__':
+
+    # 폴더선택
+    root = tkinter.Tk()
+    root.withdraw()
+
+    file_path = filedialog.askopenfilenames(
+        parent=root, initialdir="/", title='Please select target files') # 대상파일선택
+
+    dir_path = filedialog.askdirectory(
+        parent=root, initialdir="/", title='Please select saving directory') # 저장폴더선택
+
+    programPath = os.getcwd() + "/libwebp-1.4.0-windows-x64/bin/cwebp.exe" # 프로그램저장경로(수정!!!)
+   
+    for fileConvertion in file_path :        
+       
+        filename = os.path.basename(fileConvertion)        
+        name, extension = os.path.splitext(filename, )        
+
+        # Example usage
+        image_path = fileConvertion
+        print(image_path)
+        width = get_image_width(image_path)
+        print(f"Image width: {width}")
+        if width > 700 :
+            command = programPath + ' "' + fileConvertion + '" -q 100 -resize 700 0 -o "' + dir_path + '/' + name + '.webp"'
+            print(command)
+        else :
+            command = programPath + ' "' + fileConvertion + '" -q 100 -o "' + dir_path + '/' + name + '.webp"'
+   
+        os.system(command=command)
+```
+
+## result
+Because the size was also converted, the file size is greatly reduced.
+![image](https://raw.githubusercontent.com/mcjoi/img1-repo/heads/main/04001/wep_c.webp "image")
+
+***

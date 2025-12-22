@@ -1,0 +1,668 @@
+---
+### essential info 
+title: MacroToolkit for Powerpoint
+slug: 01002
+date: 2025-12-22
+cover: https://picsum.photos/800/400
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
+category: development
+tags:
+  - excel
+  - vba
+draft: false
+# order: 10
+---
+
+
+# MacroToolkit-PowerPoint
+## What is it?
+Since PowerPoint often requires manual work tailored to each specific scenario, it’s harder to create standardized features compared to Excel. For that reason, I’ve gathered useful code snippets I found through extensive web surfing. Feel free to review and modify them to fit your needs.  
+
+![ppt](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/02001/ppt_icon.webp "ppt")
+
+***
+
+## Key Point
+Instead of relying on `UserForm`, I made active use of the Ribbon menu to enhance usability.
+***
+
+## Functions
+| name | Description                                           |
+|-------------------|-----------------------------------------------------------|
+| Make Table        | Creates frequently used table templates                    |
+| Table Size        | Adjusts table size via UserForm                            |
+| delblank          | Removes blanks created when copying tables in Excel; note it removes all spaces in the table |
+| RGB Color         | Displays RGB values of the selected shape via UserForm    |
+| Color palette     | Creates a color palette in the slide master - newly added feature |
+| Text arrange      | Adjusts letter spacing of Malgun Gothic font to 0.3       |
+| zeromargin        | Sets margins of text boxes or shapes to zero               |
+| tspacing          | Adjusts line spacing                                       |
+| jpg export        | Exports selected slides as JPG files                       |
+| slide_resizes     | Changes slide size based on pixel dimensions               |
+| groupRelease      | Ungroups all groups on all slides at once                  |
+| align_bottom      | Aligns selected shape(s) to the bottom of the first selected shape |
+| align_right       | Aligns selected shape(s) to the right of the first selected shape |
+| guidebox          | Creates guide boxes (rectangles) spaced at regular intervals |
+
+***
+
+
+---
+title: "└ Sctipt List"
+date: 2025-08-14
+slug: "02002"
+tags: ["VBA", "excel", "powerpoint"]
+weight: 8
+draft: false
+---
+
+# Sctipt-table
+## What is it?
+Useful functions for handling tables.
+***
+## Make Table
+Creates frequently used table templates.
+
+```vb
+Sub tableMaker(control As IRibbonControl)
+
+    On Error GoTo Err_Check
+
+    Dim myt As shape
+    Dim idx As Integer
+    Dim cnum As Integer
+    Dim rnum As Integer
+    Dim c As Integer
+    Dim r As Integer
+
+    idx = ActiveWindow.View.slide.slideIndex
+    Set myt = ActivePresentation.Slides(idx).Shapes.AddTable(4, 4)
+
+    cnum = myt.Table.Columns.Count
+    rnum = myt.Table.Rows.Count
+
+    With myt.Table
+        For c = 1 To cnum
+            For r = 1 To rnum
+                If r = 1 Then
+                    .cell(r, c).Borders(ppBorderTop).ForeColor.RGB = RGB(64, 64, 64)
+                    .cell(r, c).Borders(ppBorderTop).Weight = 0.5
+                    .cell(r, c).Borders(ppBorderBottom).ForeColor.RGB = RGB(64, 64, 64)
+                    .cell(r, c).Borders(ppBorderBottom).Weight = 0.5
+                    .cell(r, c).shape.Fill.ForeColor.RGB = RGB(242, 242, 242)
+                Else
+                    .cell(r, c).shape.Fill.ForeColor.RGB = RGB(255, 255, 255)
+                End If
+
+                If c < cnum Then
+                    .cell(r, c).Borders(ppBorderRight).ForeColor.RGB = RGB(191, 191, 191)
+                    .cell(r, c).Borders(ppBorderRight).Weight = 0.5
+                End If
+
+                If r > 1 And r < rnum Then
+                    .cell(r, c).Borders(ppBorderBottom).ForeColor.RGB = RGB(191, 191, 191)
+                    .cell(r, c).Borders(ppBorderBottom).Weight = 0.5
+                End If
+
+                If r = rnum Then
+                    .cell(r, c).Borders(ppBorderBottom).ForeColor.RGB = RGB(64, 64, 64)
+                    .cell(r, c).Borders(ppBorderBottom).Weight = 0.5
+                End If
+
+                .cell(r, c).shape.TextFrame.TextRange.Font.size = 12
+                .cell(r, c).shape.TextFrame.TextRange.Font.Bold = msoFalse
+                .cell(r, c).shape.TextFrame.TextRange.Font.Name = "맑은 고딕"
+                .cell(r, c).shape.TextFrame.TextRange.Font.Color.RGB = RGB(0, 0, 0)
+                .cell(r, c).shape.TextFrame.TextRange.ParagraphFormat.Alignment = ppAlignCenter
+                .cell(r, c).shape.TextFrame.VerticalAnchor = msoAnchorMiddle
+
+            Next r
+        Next c
+    End With
+
+    Exit Sub
+
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & _
+        "오류내용 : " & Err.Description, vbCritical, "오류 발생"
+    End If
+
+End Sub
+```
+
+## Table Size
+Adjusts table size via UserForm.
+→ Refer to the .PPAM file for the `userForm` code.
+***
+
+## delblank
+Removes blanks created when copying tables in Excel; note it removes all spaces in the table
+```vb
+Sub delBlank()
+    Dim shp As shape
+    Dim i As Long
+    Dim j As Long
+   
+    On Error GoTo ErrorHandler
+
+    If ActiveWindow.Selection.Type = ppSelectionShapes Then
+        For Each shps In ActiveWindow.Selection.ShapeRange
+            Set shp = shps
+            Exit For
+        Next shps
+    Else
+        MsgBox "There is no table!", vbExclamation
+        GoTo dd
+    End If
+
+    If shp.HasTable Then
+        For i = 1 To shp.Table.Rows.Count
+            For j = 1 To shp.Table.Columns.Count
+                shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text = _
+                    Replace(shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text, " ", "")
+                shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text = _
+                    Replace(shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text, "　", "")
+                shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text = _
+                    Replace(shp.Table.Rows.Item(i).Cells(j).shape.TextFrame.TextRange.Text, vbCr, "")
+            Next j
+        Next i
+    End If
+
+dd:
+    Exit Sub
+
+ErrorHandler:
+    MsgBox "An error occurred: " & Err.Description, vbCritical
+    Resume dd
+End Sub
+```
+***
+
+
+
+# Sctipt-color
+## What is it?
+Useful functions for handling color.
+***
+## RGB_color
+Displays RGB values of the selected shape via UserForm.
+→ Refer to the .PPAM file for the `userForm` code.
+***
+
+## Color_palette
+Creates a color palette in the slide master - newly added feature.
+```vb
+Sub pal2()    
+    Dim mySlideMaster As Master
+    Dim left As Integer
+    Dim top As Integer
+    Dim size As Integer
+    Dim idx As Integer
+    Dim rgb1 As Long
+    Dim rgb2 As Long
+    Dim hexcolor As String
+    Dim colred As Integer
+    Dim colgreen As Integer
+    Dim colblue As Integer
+    Dim newcol As String
+    Dim pagenum As Integer
+
+    On Error GoTo Err_Check
+
+    Set mySlideMaster = Application.ActivePresentation.slideMaster
+
+    If MsgBox("do you wanna set default?", vbYesNo) = vbNo Then
+        If MsgBox("do you wanna use HEX color data?", vbYesNo) = vbYes Then
+            On Error GoTo Err_Check
+            hexcolor = InputBox("your hex color")            
+            
+            newcol = HexToRGB(hexcolor)
+            colred = Replace(Split(newcol, ",")(0), " ", "")
+            colgreen = Replace(Split(newcol, ",")(1), " ", "")
+            colblue = Replace(Split(newcol, ",")(2), " ", "")
+            
+            idx = InputBox("index")
+        Else
+            On Error GoTo Err_Check
+            colred = InputBox("type R")
+            colgreen = InputBox("type G")
+            colblue = InputBox("type B")
+            idx = InputBox("index")
+        
+            If colred < 0 Or colgreen < 0 Or colblue < 0 Or idx <= 0 Then
+                MsgBox "Invalid input values", vbCritical
+                GoTo Err_Check2
+            End If
+        End If
+
+        top = 0
+        left = -25
+        size = 20
+        
+        With mySlideMaster.Shapes.AddShape(Type:=msoShapeRectangle, left:=left, top:=topcal(idx, size), width:=size, height:=size)
+            .Fill.ForeColor.RGB = RGB(colred, colgreen, colblue)
+            .line.Visible = msoFalse
+        End With
+    Else
+        rgb1 = RGB(0, 63, 104)
+        rgb2 = RGB(237, 116, 35)
+
+        For x = 1 To 4
+            counter = counter + 1
+            With mySlideMaster.Shapes.AddShape(Type:=msoShapeRectangle, left:=-25, top:=((x - 1) * 20) + (ConvertCmToPoint(0.3) * (x - 1)), width:=20, height:=20)
+                If x = 1 Then
+                    .Fill.ForeColor.RGB = rgb1
+                ElseIf x = 2 Then
+                    .Fill.ForeColor.RGB = rgb2
+                Else
+                    .Fill.ForeColor.RGB = RGB(0, 0, 0)
+                End If
+                .line.Visible = msoFalse
+            End With
+        Next x
+    End If
+
+    Exit Sub
+
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & "오류내용 : " & Err.Description, vbCritical, "오류"
+    End If
+    Exit Sub
+
+Err_Check2:
+    MsgBox "you have wrong input value", vbCritical, "잘못된 입력"
+    Exit Sub
+End Sub
+
+Function topcal(idx As Integer, size As Integer)
+    If idx = 1 Then
+        topcal = 0
+    Else
+        topcal = ((idx - 1) * size) + (ConvertCmToPoint(0.3) * (idx - 1))
+    End If
+End Function
+
+
+Function ConvertPointToCm(ByVal pnt As Double) As Double
+    ConvertPointToCm = pnt * 0.03527778
+End Function
+
+
+Function ConvertCmToPoint(ByVal cm As Double) As Double
+    ConvertCmToPoint = cm * 28.34646
+End Function
+
+
+Function HexToRGB(hexcolor As String) As String
+    Dim r As Integer
+    Dim G As Integer
+    Dim B As Integer
+    Dim newrgbcolor As String
+
+    On Error GoTo Err_Check
+
+    hexcolor = Replace(hexcolor, "#", "")
+    hexcolor = Right$("000000" & hexcolor, 6)
+    r = val("&H" & Mid(hexcolor, 1, 2))
+    G = val("&H" & Mid(hexcolor, 3, 2))
+    B = val("&H" & Mid(hexcolor, 5, 2))
+
+    newrgbcolor = r & ", " & G & ", " & B
+    Debug.Print newrgbcolor
+
+    HexToRGB = newrgbcolor
+
+    Exit Function
+
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & "오류내용 : " & Err.Description, vbCritical, "오류"
+    End If
+    Exit Function
+End Function
+```
+***
+
+
+
+
+# Sctipt-text
+## What is it?
+Useful functions for handling text.
+***
+## Text arrange
+Adjusts letter spacing of `Malgun Gothic` font to 0.3.
+***
+## zeromargin
+Sets margins of text boxes or shapes to zero.
+```vb
+Sub textMarginZero()
+
+    On Error GoTo Err_Check ' 에러 발생 시 Err_Check로 이동
+
+    Dim shp As shape
+    Dim activeshape As shape
+    Dim myt As Table
+    Dim z As Double
+    Dim dtb As Double
+    Dim dlr As Double
+
+    ' 선택된 도형이 있는지 확인
+    If ActiveWindow.Selection.Type = ppSelectionShapes Then
+        For Each shp In ActiveWindow.Selection.ShapeRange
+            Set activeshape = shp
+            Exit For
+        Next shp
+    Else
+        MsgBox "There is no shape currently selected!", vbExclamation, "No Shape Found"
+        Exit Sub
+    End If
+
+    z = 0
+    dlr = ConvertCmToPoint(0.13)
+    dtb = ConvertCmToPoint(0.25)
+
+    ' 메시지 박스에서 사용자가 선택한 값을 처리
+    If MsgBox("To Zero : Yes, To Default : No", vbYesNo) = vbYes Then
+
+        If shp.HasTable Then
+            Set myt = shp.Table
+
+            cnum = myt.Columns.Count
+            rnum = myt.Rows.Count
+
+            ' 테이블 내의 셀에 마진 값 적용
+            With myt
+                For c = 1 To cnum
+                    For r = 1 To rnum
+                        .cell(r, c).shape.TextFrame2.MarginTop = z
+                        .cell(r, c).shape.TextFrame2.MarginBottom = z
+                        .cell(r, c).shape.TextFrame2.MarginLeft = z
+                        .cell(r, c).shape.TextFrame2.MarginRight = z
+                        .cell(r, c).shape.TextFrame2.VerticalAnchor = msoAnchorMiddle
+                    Next r
+                Next c
+            End With
+        Else
+            ' 테이블이 아닌 경우 일반 텍스트 상자의 마진 값 적용
+            With shp.TextFrame2
+                .MarginTop = z
+                .MarginBottom = z
+                .MarginLeft = z
+                .MarginRight = z
+                .VerticalAnchor = msoAnchorMiddle
+            End With
+        End If
+
+    Else
+        If shp.HasTable Then
+            Set myt = shp.Table
+
+            cnum = myt.Columns.Count
+            rnum = myt.Rows.Count
+
+            ' 테이블 내의 셀에 기본 마진 값 적용
+            With myt
+                For c = 1 To cnum
+                    For r = 1 To rnum
+                        .cell(r, c).shape.TextFrame2.MarginTop = dtb
+                        .cell(r, c).shape.TextFrame2.MarginBottom = dtb
+                        .cell(r, c).shape.TextFrame2.MarginLeft = dlr
+                        .cell(r, c).shape.TextFrame2.MarginRight = dlr
+                        .cell(r, c).shape.TextFrame2.VerticalAnchor = msoAnchorMiddle
+                    Next r
+                Next c
+            End With
+        Else
+            ' 테이블이 아닌 경우 일반 텍스트 상자의 기본 마진 값 적용
+            With shp.TextFrame2
+                .MarginTop = dtb
+                .MarginBottom = dtb
+                .MarginLeft = dlr
+                .MarginRight = dlr
+                .VerticalAnchor = msoAnchorMiddle
+            End With
+        End If
+    End If
+
+    Exit Sub
+
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & _
+        "오류내용 : " & Err.Description, vbCritical, "오류 발생"
+    End If
+
+End Sub
+
+
+Function ConvertPointToCm(ByVal pnt As Double) As Double
+    ConvertPointToCm = pnt * 0.03527778
+End Function
+
+Function ConvertCmToPoint(ByVal cm As Double) As Double
+    ConvertCmToPoint = cm * 28.34646
+End Function
+```
+***
+
+
+
+
+# Sctipt-slide
+## What is it?
+Useful functions for handling slide.
+***
+## jpg export
+Exports selected slides as JPG files.
+```vb
+Sub jpgExport()
+
+    Dim pptPres As Presentation
+    Dim filePath As String
+    Dim slidenum As String
+    Dim slicePageNum() As String
+    Dim pagenum As Integer
+    Dim i As Integer
+
+    On Error GoTo Err_Check
+
+    Set pptPres = ActivePresentation
+    
+    If pptPres.Path = "" Then
+        MsgBox "프레젠테이션이 파일로 저장되지 않았습니다. 저장 후 다시 시도하세요.", vbExclamation
+        Exit Sub
+    Else
+        filePath = pptPres.Path
+    End If
+
+    slidenum = InputBox("Input PageNumber")
+    
+    If InStr(slidenum, ",") Then
+        slicePageNum = Split(Replace(slidenum, " ", ""), ",")
+        For i = LBound(slicePageNum) To UBound(slicePageNum)
+            On Error Resume Next
+            pagenum = CInt(slicePageNum(i))
+            If IsNumeric(pagenum) And pagenum <= pptPres.Slides.Count Then
+                With pptPres.Slides(pagenum)
+                    .Export filePath & "\Slide" & pagenum & ".jpg", "JPG"
+                End With
+            Else
+                MsgBox "non-numeric value or wrong page number: " & slicePageNum(i), vbExclamation
+            End If
+            On Error GoTo Err_Check
+        Next i
+    Else        
+        pagenum = CInt(slidenum)
+        If IsNumeric(pagenum) And pagenum <= pptPres.Slides.Count Then
+            With pptPres.Slides(pagenum)
+                .Export filePath & "\Slide" & pagenum & ".jpg", "JPG"
+            End With
+        Else
+            MsgBox "non-numeric value or wrong page number", vbExclamation
+            Exit Sub
+        End If
+    End If
+
+    MsgBox "export complete"
+Exit Sub
+
+Err_Check:
+    MsgBox "오류번호: " & Err.Number & vbCr & "오류내용: " & Err.Description, vbCritical, "오류 발생"
+    Exit Sub
+
+End Sub
+```
+***
+
+## slide_resizes
+Changes slide size based on pixel dimensions.
+***
+
+## groupRelease
+Ungroups all groups on all slides at once
+***
+
+
+
+
+# Sctipt-shape
+## What is it?
+Useful functions for handling shape.
+***
+
+## align_bottom
+Aligns selected shape(s) to the bottom of the first selected shape.
+```vb
+Sub shapealign_bottom()
+    Dim standardshape As shape
+    Dim shapeName() As String
+    Dim shapenameOrigin() As String
+    Dim selectShapes As ShapeRange
+    Dim arrcount As Integer
+    Dim x As Integer
+    Dim y As Integer
+    Dim culumheight As Single
+    Dim standardshape_height As Single
+    Dim standardshape_width As Single
+    Dim standardshape_left As Single
+    Dim standardshape_top As Single
+
+    On Error GoTo Err_Check ' 에러 발생 시 Err_Check로 이동
+    
+    If ActiveWindow.Selection.Type = ppSelectionShapes Then
+        Set selectShapes = ActiveWindow.Selection.ShapeRange
+        
+        'selected shape name array
+        ReDim Preserve shapeName(selectShapes.Count)
+        ReDim Preserve shapenameOrigin(selectShapes.Count)
+        
+        'selected shape name array count
+        arrcount = UBound(shapeName) - LBound(shapeName)
+        
+        For x = 1 To arrcount
+            shapenameOrigin(x) = selectShapes(x).Name
+            selectShapes(x).Name = selectShapes(x).Name & x
+        Next x
+        
+        For Each shp In selectShapes
+            For x = 1 To arrcount
+                If shapeName(x) = "" Then
+                    shapeName(x) = shp.Name
+                    Exit For
+                End If
+            Next x
+        Next shp
+    Else
+        MsgBox "There is no shape currently selected!", vbExclamation, "No Shape Found"
+        Exit Sub
+    End If
+
+    ' Ensure there is at least one shape to align
+    If arrcount < 1 Then
+        MsgBox "No shapes were selected for alignment!", vbExclamation
+        Exit Sub
+    End If
+
+    ' Get standard shape dimensions and position
+    standardshape_height = ActiveWindow.Selection.ShapeRange(shapeName(1)).height
+    standardshape_width = ActiveWindow.Selection.ShapeRange(shapeName(1)).width
+    standardshape_left = ActiveWindow.Selection.ShapeRange(shapeName(1)).left
+    standardshape_top = ActiveWindow.Selection.ShapeRange(shapeName(1)).top
+
+    For y = 2 To arrcount
+        ActiveWindow.Selection.ShapeRange(shapeName(y)).top = standardshape_top + standardshape_height
+        
+        If y > 2 Then
+            culumheight = culumheight + ActiveWindow.Selection.ShapeRange(shapeName(y - 1)).height
+            ActiveWindow.Selection.ShapeRange(shapeName(y)).top = ActiveWindow.Selection.ShapeRange(shapeName(y)).top + culumheight
+        End If
+        
+        ActiveWindow.Selection.ShapeRange(shapeName(y)).left = standardshape_left
+    Next y
+
+    For x = 1 To arrcount
+        selectShapes(x).Name = shapenameOrigin(x)
+    Next x
+
+    Exit Sub
+    
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & "오류내용 : " & Err.Description, vbCritical, "오류 발생"
+    End If
+    Exit Sub
+End Sub
+```
+***
+
+## align_right
+Aligns selected shape(s) to the right of the first selected shape.
+```vb
+Sub shapealign_right()
+    Dim selectedShape As shape
+    Dim secondShape As shape
+    Dim shapeLeftInPoints As Single
+    Dim shapeWidthInPoints As Single
+    Dim sel As Selection
+    Dim i As Integer
+    
+    On Error GoTo Err_Check ' 에러 발생 시 Err_Check로 이동
+
+    Set sel = ActiveWindow.Selection
+
+    If sel.Type = ppSelectionShapes Then
+        If sel.ShapeRange.Count >= 2 Then
+            Set selectedShape = sel.ShapeRange(1)
+            For i = 2 To sel.ShapeRange.Count
+                Set secondShape = sel.ShapeRange(i)
+                shapeLeftInPoints = selectedShape.left
+                shapeWidthInPoints = selectedShape.width
+                secondShape.left = shapeLeftInPoints + shapeWidthInPoints
+            Next i
+        Else
+            MsgBox "Please select over 2 shapes", vbExclamation
+        End If
+    Else
+        MsgBox "Please select shapes.", vbExclamation
+    End If
+
+    Exit Sub
+    
+Err_Check:
+    If Err.Number <> 0 Then
+        MsgBox "오류번호 : " & Err.Number & vbCr & "오류내용 : " & Err.Description, vbCritical, "오류 발생"
+    End If
+    Exit Sub
+End Sub
+```
+***
+
+## guidebox
+Creates guide boxes (rectangles) spaced at regular intervals.
+***

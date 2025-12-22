@@ -1,0 +1,37 @@
+---
+### essential info 
+title: Init Flutter APIs
+slug: 03001
+date: 2025-12-22
+cover: https://picsum.photos/800/400
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
+category: development
+tags:
+  - flutter
+  - windows
+draft: false
+# order: 10
+---
+
+모든 플러터 api는 사용전에 초기화를 해줘야 한다. 
+
+
+```dart
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();  
+  // Example: Initialize Firebase or other async services
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
+```
+
+&nbsp;   
+
+
+&nbsp;
+***   
+
+

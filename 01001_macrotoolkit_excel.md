@@ -1,0 +1,242 @@
+---
+### essential info 
+title: MacroToolkit for Excel
+slug: 01001
+date: 2025-12-22
+cover: https://picsum.photos/800/400
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
+category: development
+tags:
+  - excel
+  - vba
+draft: false
+# order: 10
+---
+
+## What is it?
+Over the years of working extensively with Excel, I created macros for frequently used tasks. Although these were personal macros, I once shared them publicly hoping they might help others. However, whether offered for free or as paid tools, they never gained much traction, so I eventually withdrew all of them.
+
+![macrotoolkit](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/01001/userform_xls.webp "macrotoolkit")
+
+
+***
+
+## Key Point
+The main value lies not so much in any individual feature, but in gathering various macros into one place for easier management. To handle this, I used a `UserForm`, but surprisingly, the `VB6` `UserForm` is quite outdated and lacks many features that we now take for granted—like support for `PNG` images, for example.  
+→ Nonetheless, it serves well enough for organizing the macros.
+***
+
+## What I Learned
+Somehow, I ended up accumulating knowledge more about peripheral topics than about the core of `VBA` itself.  
+→ I looked into `evilClippy` because I was embarrassed to expose my code publicly.  
+→ I explored `xlwings` for editing `VBA` code directly in `VSCode`.
+
+
+***
+## Tutorial
+Please refer to the YouTube video tutorial for more details.  
+
+{{< youtube ip1qkSiQpzI >}}
+&nbsp;
+{{< youtube t1klJxLVnJk >}}
+***
+
+## Download
+To keep track of versions, I’ve stored the files at the following location:  
+&nbsp;  
+v0.32(25.07) - layout modification : landscape → portrait  
+v0.30(24.12) - some code optimization  
+v0.29(24.04) - some code optimization  
+v0.28(23.09) - Add language(Eng.)  
+v0.27(23.07) - Add functions(removeDuplicates, PivotRefresh), some code optimization  
+v0.26(23.06) - Add functions(colorRowDel), page tab, ribbon menu, shortcut for start   
+v0.25(23.04) - Add functions(sheetNow)  
+v0.24(23.03) - Add functions(tableToArray, checkDuplication, fontset, copyWidthHeight), Rearrange icons  
+v0.23(23.02) - Add functions  
+v0.22(22.12) - Add functions  
+v0.20(22.10) - Add functions  
+v0.21(22.10) - Redesign button  
+v0.10(21.07) - first init  
+
+
+
+
+
+## Cell format Script
+## cell outline
+
+### lineGray
+Remove the guidelines and create the gray line.   
+→ click : outskirt of the cell range selected.   
+→ double click : entire cell of the cell range selected.    
+→ keyboard shortcut : ALT + SHIFT + 1
+
+
+### lineBlack
+Remove the guidelines and create the black line.  
+→ click : outskirt of the cell range selected.   
+→ double click : entire cell of the cell range selected.   
+→ keyboard shortcut : ALT + SHIFT + 2
+
+
+### lineBlackBold
+Remove the guidelines and create the bold black line.  
+→ click : outskirt of the cell range selected.  
+→ double click : entire cell of the cell range selected.   
+→ keyboard shortcut : ALT + SHIFT + 3
+
+## colorFill
+fill gray color on the cell selected.     
+→ keyboard shortcut : ALT + SHIFT + 4
+
+## setA4
+Adjust the page size for A4 size.  
+→ recommended for new worksheet.
+
+## colorpicker
+Copy the color of the selected cell and paste it to the cell that is selected.
+
+## copyWidthHeight
+Copy the width & height of the selected cell and paste it to the cell that is selected.
+***
+
+   
+&nbsp;   
+&nbsp;   
+
+## Value format Script
+## Number format
+### formatNum_normal
+Change to a normal number format.  
+[yes - with right padding(accounting)] #,##0_-;[Red]-#,##0_-;-_-  
+[no - without right padding] #,##0;[Red]-#,##0;-
+
+### formatNum_thousand
+Change in a thousand unit number format.  
+[yes - with right padding(accounting)] #,##0,-;[Red]-#,##0,-;-_-  
+[no - without right padding] #,##0,;[Red]-#,##0,;-
+
+
+### formatNum_mil
+Change in a million unit number format.  
+[yes - with right padding(accounting)] #,##0,,-;[Red]-#,##0,,-;-_-  
+[no - without right padding] #,##0,,;[Red]-#,##0,,;-
+
+
+### formatNum_date
+Change to a date format containing the day.  
+[yes - with day of the week] yyyy-mm-dd(aaa)  
+[no - without day of the week] yyyy-mm-dd
+
+
+## delHyperlink
+Delete hyperlinks. The format is all erased together.
+
+
+
+## delBlank
+Delete all the spaces of the selected cell.
+***
+
+
+&nbsp;   
+&nbsp;   
+
+
+
+## Function Script
+
+## savebysheetname
+Save each sheet as a separate file.
+
+
+## coloredRowDel
+Delete the row of the colored cell from the selected area.
+
+
+## Handling Duplication
+### checkDuplication
+In the selected area, color the redundant value.
+
+
+### removeDuplicates
+Remove the duplicate value from the value of the selected area and make and paste a new sheet.
+
+## clearFilter
+clear all filters.
+
+## fontset
+Set the font of active sheet to "Segoe UI" 10pt.  
+→ if using Korean apply "Malgun Gothic"
+***
+
+
+&nbsp;   
+&nbsp;   
+
+
+## Data Util Script
+
+## Calculation
+### growthRate
+Calculate the growth rate.
+
+### achievementRate
+Calculate the achievement rate.
+
+### CAGR
+Calculate the CAGR.
+
+
+## WordFill
+If there is a value in the right side of the selected reference column, fill the cell value in a DB format.
+
+
+## allDecimals
+In the case of numbers with decimal points, all decimal points come out.
+
+
+
+## upsidedown
+Return the data of the selected column and return it to the right side.
+
+
+
+## inputRandomValue
+Enter the sequential date or random integer.
+
+
+
+## sepText
+In the text that is mixed with characters+numbers, only the number is returned to the right side.
+
+
+## Handling Name
+### tableToArray
+Copy the clipboard to set the table as a name definition.
+
+
+### shownamelist
+Call the currently defined name list box.
+→ double click : activate name area
+
+
+
+## pivotRefresh
+Automatically update the Pivot Table.
+
+
+## LaunchTextSplitter
+split text from pdf table.
+
+
+## dietFileSize
+Excel file size diet. check all sheet and clear.
+***
+
+
+
+***
