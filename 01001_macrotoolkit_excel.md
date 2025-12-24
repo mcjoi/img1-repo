@@ -8,7 +8,7 @@ cover: https://picsum.photos/800/400
 ### optional info 
 # updated: 2025-12-22
 # excerpt: 
-category: development
+category: dev
 tags:
   - excel
   - vba

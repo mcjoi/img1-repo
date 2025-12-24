@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "05001_christmaas",
+      "title": "Christmas 2025",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://picsum.photos/800/400",
+      "md": "05001_christmaas.md"
+    },
+    {
       "slug": "03002_fl_windows_shortcut",
       "title": "Windows Desktop Shortcut - flutter",
       "date": "2025-12-22",

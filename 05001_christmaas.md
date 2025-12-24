@@ -1,26 +1,30 @@
 ---
 ### essential info 
-title: Hiding Google API key - flutter
-slug: 03003
+title: Christmas 2025
+slug: 05001
 date: 2025-12-22
 cover: https://picsum.photos/800/400
 
 ### optional info 
 # updated: 2025-12-22
 # excerpt: 
-category: dev
+category: life
 tags:
-  - flutter
-  - windows
+  - food
 draft: false
 # order: 10
 ---
 
 
-## No one really tells you this…
-I’ve been using the Google Sheets API quite well.  
-The problem is that the API key was just hardcoded in a JSON file, and when I pressed F12 in Chrome, the API key was completely exposed.
-&nbsp;  
+## 25년의 크리스마스 
+
+as completely exposed.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+---  
 
 After some Googling… of course, I realized I was the only one who hadn’t thought about handling these security issues.
 &nbsp;  

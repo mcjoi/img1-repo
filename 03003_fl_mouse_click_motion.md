@@ -8,7 +8,7 @@ cover: https://picsum.photos/800/400
 ### optional info 
 # updated: 2025-12-22
 # excerpt: 
-category: development
+category: dev
 tags:
   - flutter
   - windows
@@ -30,6 +30,7 @@ Still, I decided to give it a try.
 
 
 ***  
+
 ## Two Scenarios
 
 1. Send the click coordinates from Windows to Flutter  
