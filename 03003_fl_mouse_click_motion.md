@@ -21,12 +21,12 @@ Adding mouse click or touch motion in a Flutter app is no big deal. But what abo
 
 Windows has a long history, but since Vista, I haven’t really come across programs or open-source projects that deal with click animations. Sure, it’s mostly a trivial feature, but the built-in Windows functionality is just… terrible.  
 
-![image](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/05003/click_motion.webp "image")
+<!-- ![image](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/05003/click_motion.webp "image") -->
 
 
 Still, I decided to give it a try.  
 
-![image](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/05003/click_motion2.webp "image")
+<!-- ![image](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/05003/click_motion2.webp "image") -->
 
 
 ***  
