@@ -19,14 +19,12 @@ draft: false
 ## What is it?
 Over the years of working extensively with Excel, I created macros for frequently used tasks. Although these were personal macros, I once shared them publicly hoping they might help others. However, whether offered for free or as paid tools, they never gained much traction, so I eventually withdrew all of them.
 
-![macrotoolkit](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/main/01001/userform_xls.webp "macrotoolkit")
-
-
 ***
 
 ## Key Point
 The main value lies not so much in any individual feature, but in gathering various macros into one place for easier management. To handle this, I used a `UserForm`, but surprisingly, the `VB6` `UserForm` is quite outdated and lacks many features that we now take for granted—like support for `PNG` images, for example.  
-→ Nonetheless, it serves well enough for organizing the macros.
+→ Nonetheless, it serves well enough for organizing the macros.   
+
 ***
 
 ## What I Learned

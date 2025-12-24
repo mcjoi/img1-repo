@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "slug": "03004_fl_google_api_env2",
-      "title": "Hiding Google API key - flutter",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://picsum.photos/800/400",
-      "md": "03004_fl_google_api_env2.md"
-    },
-    {
       "slug": "03002_fl_windows_shortcut",
       "title": "Windows Desktop Shortcut - flutter",
       "date": "2025-12-22",
@@ -31,14 +23,6 @@
       "excerpt": null,
       "cover": "https://picsum.photos/800/400",
       "md": "03004_fl_google_api_env.md"
-    },
-    {
-      "slug": "03004_fl_google_api_env3",
-      "title": "Hiding Google API key - flutter",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://picsum.photos/800/400",
-      "md": "03004_fl_google_api_env3.md"
     },
     {
       "slug": "01003_office_vba_tip",
