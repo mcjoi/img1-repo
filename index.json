@@ -65,28 +65,28 @@
       "md": "02001_py.md"
     },
     {
-      "slug": "01003_off",
-      "title": "Office VBA tips",
+      "slug": "01998_mt_ex",
+      "title": "MacroToolkit - excel",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://picsum.photos/800/400",
-      "md": "01003_off.md"
+      "md": "01998_mt_ex.md"
     },
     {
-      "slug": "01002_off",
-      "title": "MacroToolkit for Powerpoint",
+      "slug": "01997_mt_ppt",
+      "title": "MacroToolkit - powerpoint",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://picsum.photos/800/400",
-      "md": "01002_off.md"
+      "md": "01997_mt_ppt.md"
     },
     {
-      "slug": "01001_off",
-      "title": "MacroToolkit for Excel",
+      "slug": "01999_mt_intro",
+      "title": "MacroToolkit - overview",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://picsum.photos/800/400",
-      "md": "01001_off.md"
+      "md": "01999_mt_intro.md"
     }
   ]
 }
