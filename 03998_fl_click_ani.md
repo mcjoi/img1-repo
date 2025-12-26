@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: Windows Click Animation - flutter
-slug: 03003
+slug: 03998
 date: 2025-12-22
 cover: https://picsum.photos/800/400
 
