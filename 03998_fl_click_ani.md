@@ -29,10 +29,14 @@ Still, I decided to give it a try.
 
 ### Two Scenarios
 - #1 Send the click coordinates from Windows to Flutter <br>  
+```text
 You run the Flutter app as an invisible layer, and when click coordinates are received, it plays an animation.
+```
 :::space
 - #2 Send the clicked coordinates from Flutter to Windows <br>  
-Flutter plays the animation, and the coordinates sent to Windows trigger the actual click.  
+```txt
+Flutter plays the animation, and the coordinates sent to Windows trigger the actual click.
+```
 :::space
 These are simple scenarios, but ChatGPT recommended #2. Following that advice led to a few days of trial and error. Eventually, I realized that #1 is the reliable approach.  
 
