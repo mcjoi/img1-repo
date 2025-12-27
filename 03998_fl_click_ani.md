@@ -4,15 +4,15 @@ title: Windows Click Animation - flutter
 slug: 03998
 date: 2025-12-22
 cover: https://picsum.photos/800/400
-
-### optional info 
-# updated: 2025-12-22
-# excerpt: 
 category: dev
 tags:
   - flutter
   - windows
 draft: false
+
+### optional info 
+# updated: 2025-12-22
+# excerpt: 
 # order: 10
 ---
 
