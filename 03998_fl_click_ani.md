@@ -1,12 +1,11 @@
 ---
 ### essential info 
-title: Mouse Click Animation - windows
+title: Mouse Click Animation
 slug: 03998
 date: 2025-12-22
 # cover: https://picsum.photos/800/400
-category: dev
+category: flutter
 tags:
-  - flutter
   - windows
 
 ### optional info 

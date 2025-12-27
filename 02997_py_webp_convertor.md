@@ -1,12 +1,11 @@
 ---
 ### essential info 
-title: Webp 변환 유틸 - windows
+title: Webp 변환 유틸
 slug: 02997
 date: 2025-12-22
 # cover: https://picsum.photos/800/400
-category: dev
+category: pyhton
 tags:
-  - python
   - windows
 
 ### optional info 

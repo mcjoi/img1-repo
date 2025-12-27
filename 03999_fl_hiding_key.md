@@ -1,13 +1,14 @@
 ---
 ### essential info 
-title: Google API key 감추기 - flutter
+title: Google API key 감추기
 slug: 03999
 date: 2025-12-22
 # cover: https://picsum.photos/800/400
-category: dev
+category: flutter
 tags:
-  - flutter
   - windows
+  - android
+  - web
 
 ### optional info 
 # updated: 2025-12-22 # 미설정 

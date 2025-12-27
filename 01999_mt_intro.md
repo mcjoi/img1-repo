@@ -6,7 +6,8 @@ date: 2025-12-22
 # cover: https://picsum.photos/800/400
 category: macrotoolkit
 tags:
-  - vba
+  - powerpoint
+  - excel
 
 ### optional info 
 # updated: 2025-12-22 # 미설정 

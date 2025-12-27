@@ -18,7 +18,7 @@
     },
     {
       "slug": "03999_fl_hiding_key",
-      "title": "Google API key 감추기 - flutter",
+      "title": "Google API key 감추기",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": null,
@@ -74,7 +74,7 @@
     },
     {
       "slug": "03997_fl",
-      "title": "Windows Desktop Shortcut - flutter",
+      "title": "Desktop Shortcut",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": null,
@@ -82,7 +82,7 @@
     },
     {
       "slug": "03998_fl_click_ani",
-      "title": "Mouse Click Animation - windows",
+      "title": "Mouse Click Animation",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": null,
@@ -90,7 +90,7 @@
     },
     {
       "slug": "02997_py_webp_convertor",
-      "title": "Webp 변환 유틸 - windows",
+      "title": "Webp 변환 유틸",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": null,
