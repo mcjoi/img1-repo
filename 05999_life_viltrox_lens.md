@@ -8,12 +8,12 @@ category: life
 tags:
   - photo
   - video
-draft: true
 
 ### optional info 
-# updated: 2025-12-22
-# excerpt: 텍스트를 입력합니다.
-# order: 10
+# updated: 2025-12-22 # 미설정 
+# excerpt: 텍스트를 입력합니다. # 미설정 
+# order: 10 # 미설정 
+# draft: false #미설정 
 ---
 
 ## 빌트록스 렌즈
@@ -49,3 +49,4 @@ draft: true
 :::sp 2
 ## 샘플 
 :::sp 2
+
