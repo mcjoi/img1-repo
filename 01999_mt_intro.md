@@ -4,11 +4,8 @@ title: MacroToolkit - overview
 slug: 01999
 date: 2025-12-22
 # cover: https://picsum.photos/800/400
-category: dev
+category: macrotoolkit
 tags:
-  - macrotoolkit
-  - excel
-  - powerpoint
   - vba
 
 ### optional info 

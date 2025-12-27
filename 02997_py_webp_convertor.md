@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: Webp Convert Program
+title: Webp 변환 유틸 - windows
 slug: 02997
 date: 2025-12-22
 # cover: https://picsum.photos/800/400
@@ -16,27 +16,24 @@ tags:
 # draft: false #미설정 
 ---
 
-# WebP Conversion Program
 ## What is it?
-I once wrote about converting images to WebP for blog image optimization. However, uploading images online for conversion every time is a bit inconvenient, and using Photoshop for this is also not ideal.
-
-I downloaded a conversion program from the Google Dev site, but it requires entering commands in the CMD each time. This is also tedious, so I decided to create a simple Python program. I set up the program as shown below, making sure that Python is added to the Windows PATH so it can be run from anywhere.
-
-{{< hint warning >}}
+한 때, 블로그 SEO를 위해 모든 이미지를 `WebP` 포맷으로 변환해서 올리던 적이 있었다.<br>
+프로그램은 아래와 같이 구성이 된다.
+:::sp
+```text
 python.py   ← The Python script file  
 <br> 
 └── libwebp-1.4.0-windows-x64  ← Folder containing the WebP library  
-{{< /hint >}}
-
-
-
-
-By placing a batch file on the desktop (or anywhere else), you can easily execute the Python program. Just make sure the required Python packages are installed in advance.
-
-When you run it, the first file explorer window will let you select the file you want to convert, and the second will let you choose the folder where the converted file will be saved. Of course, you can also tweak the code to fix the target folder to any location you prefer.
-
-
-## sample code
+```
+:::sp
+사용하기 편하게 파이썬을 사용했지만, 거의 사용하지 않았던 유틸이 되었다. <br>
+이유를 정확하게 파악하기 어렵지만 `WebP` 변환 시 리사이즈 알고리즘 때문인지 묘하게 컬러가 튀틀리는 현상을 끝내 잡아내지 못했기 때문이다. 
+:::sp
+그냥 실행이 되는 것으로 만족한다.
+:::sp 2
+***
+:::sp 2
+`python code sample`
 
 ```python
 import os
@@ -85,8 +82,5 @@ if __name__ == '__main__':
         os.system(command=command)
 ```
 
-## result
-Because the size was also converted, the file size is greatly reduced.
-![image](https://raw.githubusercontent.com/mcjoi/img1-repo/heads/main/04001/wep_c.webp "image")
 
-***
+:::sp 2

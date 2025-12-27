@@ -57,5 +57,5 @@ type = service_account
 private_key = "-----BEGIN PRIVATE KEY-----\nMI
 ```
 :::sp 2
-더 이상 특별한 것은 없다.
+딱히 특별한 것은 없다.
 :::sp 2
