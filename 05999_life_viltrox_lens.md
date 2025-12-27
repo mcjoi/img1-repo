@@ -52,5 +52,5 @@ tags:
 
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome.jpg)
 
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome@small.jpg)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome.jpg@small)
 
