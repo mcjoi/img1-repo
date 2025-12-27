@@ -21,7 +21,7 @@ tags:
 프로그램은 아래와 같이 구성이 된다.
 :::sp
 ```text
-python.py   ← The Python script file <br> 
+python.py   ← The Python script file 
 └── libwebp-1.4.0-windows-x64  ← Folder containing the WebP library  
 ```
 :::sp
