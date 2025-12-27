@@ -30,6 +30,6 @@ r시리즈 같은 고해상도 바디를 가지고 있다면 모를까, a7c2에�
 :::sp 2
 ## 성능은 어떤가?
 쇼핑몰에서 이상하게도 이 렌즈의 가격대가 다른 air 시리즈보다 비싸다는 것을 확인할 수 있다. 정말 그만한 성능을 가지고 있을까?<br>
-::sp
-![smaple](https://blog.kakaocdn.net/dna/c9z9qB/dJMcabQiSqP/AAAAAAAAAAAAAAAAAAAAAOSZVBLxxZ8HOz1PB5-M_nNclfMKNqWT74mrL6qus-Oi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1767193199&allow_ip=&allow_referer=&signature=JM4RHAVMNVxUV8zVkip7SIXuRLM%3D)
-::sp 2
+:::sp
+![smaple](https://blog.kakaocdn.net/dna/c9z9qB/dJMcabQiSqP/AAAAAAAAAAAAAAAAAAAAAOSZVBLxxZ8HOz1PB5-M_nNclfMKNqWT74mrL6qus-Oi/img.png)
+:::sp 2
