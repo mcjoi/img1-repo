@@ -33,6 +33,6 @@ tags:
 
 ## Downloads
 아래 깃 허브 경로에서 현재까지의 버전을 다운 받을 수 있다. <br>
-https://github.com/mcjoi/office_macro_toolkit/
 
+:::btn https://github.com/mcjoi/office_macro_toolkit/ download
 :::sp 2   
