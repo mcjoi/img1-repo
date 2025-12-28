@@ -3,6 +3,7 @@
 title: 빌트록스 렌즈 - air 시리즈 사용기 
 slug: 05999
 date: 2025-12-27
+# updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png
 category: life
 tags:
@@ -10,7 +11,6 @@ tags:
   # - video
 
 ### optional info 
-# updated: 2025-12-22 # 미설정 
 # excerpt: 텍스트를 입력합니다. # 미설정 
 # order: 10 # 미설정 
 # draft: false #미설정 

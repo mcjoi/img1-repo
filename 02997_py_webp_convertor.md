@@ -1,15 +1,17 @@
 ---
 ### essential info 
-title: Webp 변환 유틸
+title: python - Webp 변환 유틸
 slug: 02997
 date: 2025-12-22
+# updated: 2025-12-22 # 미설정 
 # cover: https://picsum.photos/800/400
-category: pyhton
+category: dev
 tags:
   - windows
+  - pyhton
 
 ### optional info 
-# updated: 2025-12-22 # 미설정 
+
 # excerpt: 텍스트를 입력합니다. # 미설정 
 # order: 10 # 미설정 
 # draft: false #미설정 

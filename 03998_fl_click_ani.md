@@ -1,15 +1,16 @@
 ---
 ### essential info 
-title: Mouse Click Animation
+title: flutter - Mouse Click Animation
 slug: 03998
 date: 2025-12-22
+# updated: 2025-12-22 # 미설정 
 # cover: https://picsum.photos/800/400
-category: flutter
+category: dev
 tags:
   - windows
+  - flutter
 
 ### optional info 
-# updated: 2025-12-22 # 미설정 
 # excerpt: 텍스트를 입력합니다. # 미설정 
 # order: 10 # 미설정 
 # draft: false #미설정 
