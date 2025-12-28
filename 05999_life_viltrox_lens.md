@@ -54,7 +54,7 @@ tags:
 
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_093737_Instagram.jpg)
 
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_093737_Instagram.jpg@small)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-28%2010%2016%2054.png)
 
 
 
