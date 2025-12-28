@@ -52,5 +52,9 @@ tags:
 
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome.jpg)
 
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome.jpg@small)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_093737_Instagram.jpg)
+
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_093737_Instagram.jpg@small)
+
+
 
