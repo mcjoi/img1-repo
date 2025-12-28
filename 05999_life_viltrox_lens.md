@@ -50,4 +50,4 @@ tags:
 ## 샘플 
 :::sp 2
 
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png)
+
