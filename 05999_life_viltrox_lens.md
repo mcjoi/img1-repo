@@ -13,7 +13,7 @@ tags:
 ### optional info 
 # excerpt: 텍스트를 입력합니다. # 미설정 
 # order: 10 # 미설정 
-# draft: false #미설정 
+# draft: false #미설정
 ---
 
 ## 빌트록스 렌즈
