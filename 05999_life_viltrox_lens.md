@@ -7,7 +7,7 @@ cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2
 category: life
 tags:
   - photo
-  - video
+  # - video
 
 ### optional info 
 # updated: 2025-12-22 # 미설정 
@@ -50,11 +50,4 @@ tags:
 ## 샘플 
 :::sp 2
 
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_083127_Chrome.jpg)
-
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/AISelect_20251228_093737_Instagram.jpg)
-
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-28%2010%2016%2054.png)
-
-
-
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png)
