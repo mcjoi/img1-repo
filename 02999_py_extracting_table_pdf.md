@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: python - Extracting Tables from PDF
+title: python - PDF에서 테이블 추출하기 
 slug: 02999
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정 
@@ -17,15 +17,14 @@ tags:
 # draft: false #미설정 
 ---
 
-
-
-# Extracting Tables from PDF Documents
 ## What is it?
-I tried several methods for extracting tables from PDF files, and the method below seems to be the most effective - camelot package.   
-However, for documents with heavy design elements, Python sometimes fails to recognize the tables correctly.
-***
-
-## code sample
+PDF파일에서 테이블을 추출하기 위해 OCR을 사용하거나, CSV로 변환하는 등 많은 방법을 사용해 보았다. <br>
+하지만 테이블을 온전한 형태로 추출하는 것은 거의 불가능했고, 각각의 방법마다 뭔가 하나  빠진듯한 결과물이 나왔다. <br>
+- PDF의 테이블은 테이블 형태의 데이터가 아니라 `텍스트 + 이미지(라인)`이기 때문에 벌어지는 현상으로 추정된다.
+현재까지 사용해본 방법중에서는 `python`의 `camelot` 패키지가 가장 우수한 결과를 보여주기 때문에 이를 활용한 추출 코드 예시를 남긴다. <br>
+- PDF 파일을 선택하면, 테이블이 있는 페이지에 대하여, 각 시트별로 테이블을 작성해준다.
+:::sp 2
+`code sample`
 ```python
 import camelot
 import pandas as pd
@@ -76,6 +75,4 @@ with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
 print(f"Excel file saved successfully: {excel_file}")
 
 ```
-&nbsp;  
-
-***
+:::sp 2
