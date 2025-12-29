@@ -29,7 +29,8 @@ tags:
 :::sp
 `margin` 값을 때마다 고쳐주는 것도 귀찮으니, `default` 값으로 변경하는 VBA를 짜본다. 물론 기존 테이블이 default margin 값(0.25, 0.25, 0.13, 0.13)을 사용한다는 전제다.
 :::sp
-아래 프로시저로 초기화가 가능하다.
+아래 프로시저로 `margin` 값을 초기화 할 수 있다.
+:::sp
 - sample code
 ```vb
 Option Explicit
