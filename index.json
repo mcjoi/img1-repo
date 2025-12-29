@@ -5,7 +5,7 @@
       "title": "빌트록스 렌즈 - air 시리즈 사용기",
       "date": "2025-12-27",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "05998_life.md"
     },
     {
@@ -21,7 +21,7 @@
       "title": "flutter - Google API key 감추기",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "03999_fl_hiding_key.md"
     },
     {
@@ -29,7 +29,7 @@
       "title": "MacroToolkit - powerpoint",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/macrotoolkit_2.webp",
       "md": "01997_mt_ppt.md"
     },
     {
@@ -37,7 +37,7 @@
       "title": "MacroToolkit - excel",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/macrotoolkit_1.webp",
       "md": "01998_mt_ex.md"
     },
     {
@@ -53,7 +53,7 @@
       "title": "pyhton - Move file by extention",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "02998_py.md"
     },
     {
@@ -61,7 +61,7 @@
       "title": "python - Extracting Tables from PDF",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "02999_py.md"
     },
     {
@@ -69,7 +69,7 @@
       "title": "python - Webp 변환 유틸",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "02997_py_webp_convertor.md"
     },
     {
@@ -77,7 +77,7 @@
       "title": "flutter - Mouse Click Animation",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "03998_fl_click_ani.md"
     },
     {
@@ -85,7 +85,7 @@
       "title": "flutter - Desktop Shortcut",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "03997_fl_desktopshrortcut.md"
     }
   ]
