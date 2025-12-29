@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "05998_life_newblog",
+      "title": "신규 블로그 생성",
+      "date": "2025-12-29",
+      "excerpt": null,
+      "cover": null,
+      "md": "05998_life_newblog.md"
+    },
+    {
       "slug": "05999_life_viltrox_lens",
       "title": "빌트록스 렌즈 - air 시리즈 사용기",
       "date": "2025-12-27",
