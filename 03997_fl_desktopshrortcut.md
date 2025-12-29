@@ -26,7 +26,7 @@ tags:
 :::sp 2
 ## Package
 꽤 오랜 세월이 지났으니, flutter windows app이 어느정도 편의를 제공할 수 있는 수준이 된 듯하다. 큰 무리없이 exe파일까지 build를 할 수 있었다.
-::sp
+:::sp
 몇가지 핵심만 요약해서 정리를 해둔다.
 ::sp 2
 ### window manager
@@ -86,13 +86,13 @@ tags:
 :::sp 2
 ### system_tray
 항상 떠 있는 창이다 보니 가끔 걸리적거릴 때가 있다. 사용하지 않거나 화면을 많이 가리게 되는 경우는 system tray에 내려 둘 수 있도록 아래 패키지를 사용한다. 그냥 샘플에 있는 코드를 넣는 것만으로도 활성화가 가능한 아주 신박한 패키지이다.
-::sp 2
+:::sp 2
 ***
-::sp 2
+:::sp 2
 
 ## Result
 윈도우11로 넘어오면서 transparent 기능이 좀 이상하게 작동하기는 하지만, 본래의 목적 자체가 미적인데 있지 않기 때문에 그냥 쓰자.
-::sp
+:::sp
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/desktop_bookmark.gif)
 :::sp 2
 
