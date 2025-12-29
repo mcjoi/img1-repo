@@ -19,9 +19,12 @@ tags:
 
 ## What is it?
 회사생활을 하면서 수집하거나 직접 만든 매크로들 중에 가장 빈번히 사용하거나 유용한 기능을 모아두었다.
-- 엑셀 : `userform`
-- 파워포인트 : `add-in` 
-:::sp
+- 엑셀 : `excel add-in userform xla`
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/macrotoolkit_1.webp)
+:::sp 2
+- 파워포인트 : `powerpoint add-in ppam` 
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/macrotoolkit_2.webp)
+:::sp 2
 ## Things to Know 
 - 알겠지만 엑셀은 VBA 사용 이후 `UNDO`가 적용되지 않는다. 따라서, 기능이 익숙해지지 않았다면 - 사용전에 엑셀 파일을 다른이름으로 저장하고 사용하는 것을 추천한다.
 - 모든 상황에 대한 예외 처리가 되어있지는 않기 때문에, 정해진 조건 내에서 사용하지 않을 경우, 당연히 에러가 날 수 있다.
