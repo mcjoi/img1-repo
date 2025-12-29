@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: powerpoint - 엑셀-파워포인트 테이블(표) 연동 관련
+title: 엑셀-파워포인트 테이블(표) 연동 관련
 slug: 01996
 date: 2025-12-22
 # updated: 2025-12-22
