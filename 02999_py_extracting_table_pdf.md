@@ -4,7 +4,7 @@ title: python - PDF에서 테이블 추출하기
 slug: 02999
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정 
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp
 category: dev
 tags:
   - windows

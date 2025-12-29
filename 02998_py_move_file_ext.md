@@ -4,7 +4,7 @@ title: pyhton - 확장자별 폴더생성, 이동
 slug: 02998
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정 
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp
 category: dev
 tags:
   - windows

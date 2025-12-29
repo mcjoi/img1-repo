@@ -4,7 +4,7 @@ title: MacroToolkit - overview
 slug: 01999
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp
 category: dev
 tags:
   - powerpoint
