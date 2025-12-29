@@ -16,7 +16,7 @@ tags:
 # draft: false #미설정 
 ---
 
-## Inspiration
+## What is it?
 폴더나, 파일을 매번 찾기 귀찮으니, 바로가기를 만들었다.<br>
 `Rainmeter`를 통해서 이와 유사한 앱을 만들었지만, 약간 부족한 감이 있어 다시 만든다. 
 

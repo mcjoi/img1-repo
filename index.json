@@ -49,14 +49,6 @@
       "md": "01999_mt_intro.md"
     },
     {
-      "slug": "02998_py",
-      "title": "pyhton - Move file by extention",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
-      "md": "02998_py.md"
-    },
-    {
       "slug": "02997_py_webp_convertor",
       "title": "python - Webp 변환 유틸",
       "date": "2025-12-22",
@@ -87,6 +79,14 @@
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
       "md": "02999_py_extracting_table_pdf.md"
+    },
+    {
+      "slug": "02998_py_move_file_ext",
+      "title": "pyhton - 확장자별 폴더생성, 이동",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/00_noimage.webp",
+      "md": "02998_py_move_file_ext.md"
     }
   ]
 }
