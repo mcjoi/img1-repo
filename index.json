@@ -49,6 +49,14 @@
       "md": "02997_py_webp_convertor.md"
     },
     {
+      "slug": "02998_py_move_file_ext",
+      "title": "pyhton - 확장자별 폴더생성, 이동",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
+      "md": "02998_py_move_file_ext.md"
+    },
+    {
       "slug": "03998_fl_click_ani",
       "title": "flutter - Mouse Click Animation",
       "date": "2025-12-22",
@@ -71,14 +79,6 @@
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
       "md": "02999_py_extracting_table_pdf.md"
-    },
-    {
-      "slug": "02998_py_move_file_ext",
-      "title": "pyhton - 확장자별 폴더생성, 이동",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
-      "md": "02998_py_move_file_ext.md"
     }
   ]
 }

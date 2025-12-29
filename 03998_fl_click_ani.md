@@ -16,7 +16,7 @@ tags:
 # draft: false #미설정 
 ---
 
-### What is it?
+## What is it?
 Adding mouse click or touch motion in a Flutter app is no big deal. But what about apps running on Windows 10? If you can use Lottie animations, you could turn boring click motions into something that feels like a macOS app…  
 :::sp
 Windows has a long history, but since Vista, I haven’t really come across programs or open-source projects that deal with click animations. Sure, it’s mostly a trivial feature, but the built-in Windows functionality is just… terrible.  
@@ -27,7 +27,7 @@ Still, I decided to give it a try.
 ***
 :::sp 2  
 
-### Two Scenarios
+## Two Scenarios
 - #1 Send the click coordinates from Windows to Flutter <br>  
 ```text
 You run the Flutter app as an invisible layer, and when click coordinates are received, it plays an animation.
@@ -44,7 +44,7 @@ These are simple scenarios, but ChatGPT recommended #2. Following that advice le
 ***
 :::sp 2
 
-### Win32 and FFI
+## Win32 and FFI
 On Flutter Android, whenever you try to do anything, you often need to touch native code—and it can easily break. Windows is no different: you have to deal with C++.  
 :::sp
 There are two ways to do this: write everything in Dart, or build a C++ DLL in Visual Studio and call it from Flutter.  
@@ -55,7 +55,7 @@ Since I had no idea if it would even work, I did it for fun. Otherwise, I would 
 ***
 :::sp 2
 
-### Scenario Details
+## Scenario Details
 - Flutter runs the DLL file.
 - Windows, via the DLL, writes click coordinates to a text file whenever a click occurs.
 - Flutter reads the coordinates from the text file and uses them to determine where to play the animation.
@@ -65,14 +65,14 @@ Since I had no idea if it would even work, I did it for fun. Otherwise, I would 
 ***
 :::sp 2
 
-### Packages Used
+## Packages Used
 For controlling the DLL, we just import io and ffi. For window management, we use window_manager. To play animations, we use the lottie package.
 
 :::sp 2
 ***
 :::sp 2
 
-### Calling the DLL
+## Calling the DLL
 The DLL must be executed from main(). I didn’t know why, but following ChatGPT’s instructions, it should be defined like this.
 ```dart
 typedef StartHookThreadC = Void Function();
