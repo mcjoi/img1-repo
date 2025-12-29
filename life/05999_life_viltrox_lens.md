@@ -48,6 +48,9 @@ tags:
 사실, 위에 열거한 무엇을 사도 값어치는 한다는 것은 명확히 말할 수 있는 사실이다.
 :::sp 2
 ## 샘플 
+:::sp
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png)
+
 :::sp 2
 
 
