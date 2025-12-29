@@ -25,6 +25,14 @@
       "md": "office/01997_mt_ppt.md"
     },
     {
+      "slug": "01996_ppt_excel_table_copy",
+      "title": "powerpoint - 엑셀-파워포인트 테이블(표) 연동 관련",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "md": "office/01996_ppt_excel_table_copy.md"
+    },
+    {
       "slug": "01998_mt_ex",
       "title": "MacroToolkit - excel",
       "date": "2025-12-22",
