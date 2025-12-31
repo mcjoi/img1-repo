@@ -67,6 +67,8 @@ tags:
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_03.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_04.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_05.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_06.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_07.png)
 
 
 :::sp 2
