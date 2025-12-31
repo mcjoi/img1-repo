@@ -48,17 +48,17 @@ tags:
 사실, 위에 열거한 무엇을 사도 값어치는 한다는 것은 명확히 말할 수 있는 사실이다.
 :::sp 2
 ### 15mm f1.7 air sample
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_01.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_02.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_03.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_04.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_05.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_06.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_07.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_08.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_09.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_10.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_11.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_02.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_03.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_04.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_05.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_06.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_07.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_08.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_09.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_10.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_11.png)
 
 :::sp 2
 
