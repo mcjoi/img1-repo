@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "01995_using_vba",
+      "title": "엑셀-파워포인트 VBA/매크로 사용하기",
+      "date": "2025-12-31",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/02_vba.webp",
+      "md": "office/01995/01995_using_vba.md"
+    },
+    {
       "slug": "05997_life_camera_remote",
       "title": "소니 4세대 카메라(A7C2) 리모컨 - 알리",
       "date": "2025-12-31",
