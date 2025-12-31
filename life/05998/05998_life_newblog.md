@@ -43,8 +43,12 @@ tags:
 - Git pages : Github에서 제공하는 서비스. Markdown 언어로 작성을 하며, `Jekll/Hugo`등의 편의를 제공해주는 서비스(템플릿 등)이 있다.
 :::sp 2
 
-이를 통해, 티스토리나 네이버 블로그가 얼마나 사용자 친화적인 서비스였는지 알 수 있었다. 무료에 길들여진 나는.. <br>
-`Git pages`를 선택할 수 밖에 없다.
+이를 통해, 티스토리나 네이버 블로그가 얼마나 사용자 친화적인 서비스였는지 알 수 있었다. <br>
+티스토리의 백업 기능은 기존의 포스트들을 다 압축파일로 제공해주며, 이미지 파일은 무려 원본으로 받을 수 있다.
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05998/05998_img_01.webp)
+
+:::sp 2
+무료에 길들여진 나는.. `Git pages`를 선택할 수 밖에 없다.
 :::sp 2
 
 
