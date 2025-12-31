@@ -21,14 +21,15 @@ tags:
 특히 한국에서 알리익스프레스를 통해 구매 하는 경우, AS를 포기한다면, 관세를 지불하지 않을 수 있는 가격으로 구매할 수 있기에, 그 매력이 배가 된다.
 :::sp
 현재까지 APS-C 용은 15mm, 25mm 를 사용해 보았고, FF 용은 20mm, 50mm 를 사용해 보았다. 나머지 화각은 이와 크게 다르지 않을 것으로 예상되어, 사용해 본 렌즈를 기준으로 몇자 적었다.
+
 :::sp 2
 
 ## 외형
-사실 사용기에 적을 내용이 없을 만큼 air 시리즈의 생긴 모양은 비슷하다. 필터 구경이 살짝 다르기는 한데, 52 아니면 58 필터를 채용하고 있다.
+사실 사용기에 적을 내용이 없을 만큼 air 시리즈의 생긴 모양은 비슷하다. 구지 다른 점을 찾자면, 후드 모양이 좀 다르고, 필터 구경이 살짝 다르기는 한데, 그나마도 52 아니면 58 필터를 채용하고 있다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_04.png)
+
+
 :::sp 2
-
-
 
 ## 성능
 최대한 피하고 싶었지만, 다른 브랜드와 비교없이 성능을 논하기는 어렵다. 가장 유사한 삼양의 tiny 시리즈와 비교하자면, 더 저렴한 가격으로 비슷한 성능을 낸다고 할 수 있다.
@@ -45,7 +46,8 @@ tags:
 개인적인 만족도는 50 >= 15 >> 25 >= 20 정도로 기억이 된다. 물론 20은 APS-C에서 사용하는 바람에 평가 절하된 감이 없지 않아 있다.
 
 :::sp 2
-- 15mm f1.7 air sample
+
+- 15mm f1.7 air sample <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_02.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_03.png)
@@ -59,7 +61,7 @@ tags:
 
 :::sp 2
 
-- 20mm f2.8 air sample
+- 20mm f2.8 air sample <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_02.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_03.png)
@@ -71,13 +73,13 @@ tags:
 
 :::sp 2
 
-- 25mm f1.7 air sample
+- 25mm f1.7 air sample <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_02.png)
 
 :::sp 2
 
-- 50mm f2.0 air sample
+- 50mm f2.0 air sample <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_02.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_03.png)
@@ -85,7 +87,7 @@ tags:
 :::sp 2
 
 ## 결론  
-개인적으로 광각 렌즈에 돈을 투자하고 싶지 않았는데, 가끔 필요할 때가 있고, 영상을 찍을 요량으로 15를 남겼다. <br>
+개인적으로 광각 렌즈엔 돈을 투자하고 싶지 않은데, 가끔 필요할 때가 있고, 영상을 찍을 요량으로 15를 남겼다. <br>
 만약 원렌즈 구성을 한다고 하면 50이 좋은 선택이라고 생각한다. 
 :::sp
 새 렌즈를 사서 쓰는일이 많지 않았는데, 덕분에 새 렌즈를 몇개나 사서 써보는 호사를 몇번이나 누려보았다.<br> 
