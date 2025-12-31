@@ -47,9 +47,18 @@ tags:
 무게 앞에 성능을 논하는 것 자체가 의미없는 일이므로, 가볍게 쓸 화각이 뭔지 생각해보고 자주 들고 다니면 그만인 것이다.<br>
 사실, 위에 열거한 무엇을 사도 값어치는 한다는 것은 명확히 말할 수 있는 사실이다.
 :::sp 2
-## 샘플 
-:::sp
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png)
+### 15mm f1.7 air sample
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_02.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_03.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_04.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_05.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_06.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_07.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_08.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_09.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_10.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999_vilt15_11.png)
 
 :::sp 2
 
