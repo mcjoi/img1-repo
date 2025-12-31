@@ -33,8 +33,8 @@ python.py   ← The Python script file
 :::sp 2
 ***
 :::sp 2
-`python code sample`
 
+- python code sample
 ```python
 import os
 import tkinter
