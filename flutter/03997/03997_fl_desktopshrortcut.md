@@ -4,7 +4,7 @@ title: flutter - Desktop Shortcut
 slug: 03997
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03_flutter.webp
 category: dev
 tags: 
   - windows

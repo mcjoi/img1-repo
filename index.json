@@ -5,7 +5,7 @@
       "title": "엑셀-파워포인트 테이블(표) 연동 관련",
       "date": "2025-12-29",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
       "md": "office/01996/01996_ppt_excel_table_copy.md"
     },
     {
@@ -21,7 +21,7 @@
       "title": "MacroToolkit - overview",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/02_vba.webp",
       "md": "office/01999/01999_mt_intro.md"
     },
     {
@@ -29,7 +29,7 @@
       "title": "MacroToolkit - powerpoint",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
       "md": "office/01997/01997_mt_ppt.md"
     },
     {
@@ -37,7 +37,7 @@
       "title": "MacroToolkit - excel",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/05_excel.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
       "md": "office/01998/01998_mt_ex.md"
     },
     {
@@ -45,7 +45,7 @@
       "title": "python - Webp 변환 유틸",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/01_python.webp",
       "md": "python/02997/02997_py_webp_convertor.md"
     },
     {
@@ -53,7 +53,7 @@
       "title": "pyhton - 확장자별 폴더생성, 이동",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/01_python.webp",
       "md": "python/02998/02998_py_move_file_ext.md"
     },
     {
@@ -61,7 +61,7 @@
       "title": "python - PDF에서 테이블 추출하기",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/01_python.webp",
       "md": "python/02999/02999_py_extracting_table_pdf.md"
     },
     {
@@ -69,7 +69,7 @@
       "title": "flutter - Google API key 감추기",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03_flutter.webp",
       "md": "flutter/03999/03999_fl_hiding_key.md"
     },
     {
@@ -77,7 +77,7 @@
       "title": "flutter - Desktop Shortcut",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03_flutter.webp",
       "md": "flutter/03997/03997_fl_desktopshrortcut.md"
     },
     {
@@ -85,7 +85,7 @@
       "title": "flutter - Mouse Click Animation",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03_flutter.webp",
       "md": "flutter/03998/03998_fl_click_ani.md"
     },
     {

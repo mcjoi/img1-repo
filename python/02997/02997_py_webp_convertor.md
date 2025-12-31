@@ -4,7 +4,7 @@ title: python - Webp 변환 유틸
 slug: 02997
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정 
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/01_python.webp
 category: dev
 tags:
   - windows
