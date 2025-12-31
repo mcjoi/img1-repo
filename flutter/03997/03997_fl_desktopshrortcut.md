@@ -100,6 +100,6 @@ tags:
 북마크 리스트를 `json` 파일로 관리하는 것이 처음에는 편했는데, 북마크가 많아지고 수정이 자주 생기니, 불편함이 생긴다. <br>
 setting을 할 수 있는 페이지를 설계를 할 필요가 있다.
 :::sp
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/flutter/03997/03997_desktop_bookmark.gif)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03997_desktop_bookmark.gif)
 :::sp 2
 
