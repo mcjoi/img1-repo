@@ -60,6 +60,13 @@ tags:
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_10.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_11.png)
 
+
+:::sp 2
+
+- 25mm f1.7 air sample
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_02.png)
+
 :::sp 2
 
 - 50mm f2.0 air sample
