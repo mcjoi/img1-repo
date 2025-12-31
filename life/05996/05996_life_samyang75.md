@@ -21,7 +21,7 @@ tags:
 ### 75mm 화각
 85mm 화각은 너무 좁다. 50mm 화각은 뭔가 아쉽다. 중도의 초점거리는 65mm나 75mm인데, <br>
 시그마의 65mm F2.0은 매물도 많지 않고, 가격도 비싸다. 만만한 렌즈는 역시 삼양의 75mm가 되겠다.
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_01.webp img)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_01.webp)
 :::sp 2 
 
 ### 지지도
