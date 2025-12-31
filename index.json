@@ -5,7 +5,7 @@
       "title": "엑셀-파워포인트 테이블(표) 연동 관련",
       "date": "2025-12-29",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
       "md": "office/01996_ppt_excel_table_copy.md"
     },
     {
@@ -21,7 +21,7 @@
       "title": "빌트록스 렌즈 - air 시리즈 사용기",
       "date": "2025-12-27",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/2025-12-14%2012-42-22%20DSC05036-2_annotated.png",
+      "cover": null,
       "md": "life/05999_life_viltrox_lens.md"
     },
     {
@@ -29,7 +29,7 @@
       "title": "MacroToolkit - powerpoint",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
       "md": "office/01997_mt_ppt.md"
     },
     {
@@ -37,7 +37,7 @@
       "title": "MacroToolkit - excel",
       "date": "2025-12-22",
       "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/05_excel.webp",
       "md": "office/01998_mt_ex.md"
     },
     {
