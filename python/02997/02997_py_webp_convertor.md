@@ -31,7 +31,8 @@ tags:
 :::sp 2
 첫번째 탐색기가 뜨면 변환하고 싶은 파일을 선택해주고, 두번째 탐색기에서는 저장할 폴더를 선택해주면 된다. 물론 코드를 좀 수정해서, 타겟 폴더를 원하는 폴더에 고정해줄 수도 있다.
 :::sp 2 
-```pyhton
+
+```python
 import os
 import tkinter
 from tkinter import filedialog
