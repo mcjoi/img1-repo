@@ -4,7 +4,7 @@
 		
 		"prefix": "z",
 		"body": [
-			":::sp"			
+			"::sp"			
 		],
 		"description": "1_line"
 	},
@@ -13,7 +13,7 @@
 		
 		"prefix": "x",
 		"body": [
-			":::sp 2"			
+			"::sp2"			
 		],
 		"description": "2_line"
 	},
