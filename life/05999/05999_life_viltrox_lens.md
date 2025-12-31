@@ -61,6 +61,16 @@ tags:
 
 :::sp 2
 
+- 20mm f2.8 air sample
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_02.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_03.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_04.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_05.png)
+
+
+:::sp 2
+
 - 25mm f1.7 air sample
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_02.png)
@@ -70,6 +80,7 @@ tags:
 - 50mm f2.0 air sample
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_02.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_03.png)
 
 :::sp 2
 
