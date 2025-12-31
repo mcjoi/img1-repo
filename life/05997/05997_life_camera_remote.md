@@ -35,13 +35,13 @@ A6100을 팔아먹은 지금, 이건 그냥 쓰레기에 지나지 않는다. �
 사실 잘 쓰지도 않는데, 이번에도 역시 왜 사는지 역시 모른다.
 :::sp
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05997/05997_remo_02.png)
-:::sp
+:::sp 2
 크기가 생각보다 작지는 않다. 길쭉했던 JJC 제품보다 한결 나아졌지만, 휴대성이 안좋은건 매한가지다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05997/05997_remo_03.png)
-:::sp
+:::sp 2
 구매 시점까지 몰랐는데, 마그네틱 방식의 전용 충전선을 사용한다. 자성이 강하지도 않고, 필요할 때 충전하기 백만배 어렵게 한다. 이 방식이 더 제조원가를 낮출 수 있었을런지 모르겠지만, 확실히 제품의 가치는 그보다 훨씬 떨어졌을 것이라는 생각이 든다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05997/05997_remo_01.png)
-:::sp
+:::sp 2
 다행히도 A7C2와 연결이 잘 되고, 작동도 되긴하니, 딱히 문제랄건 없다. 단지 나하고 잘 맞지는 않는 듯 하다.
 :::sp
 끝.
