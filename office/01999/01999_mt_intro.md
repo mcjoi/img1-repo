@@ -21,10 +21,10 @@ tags:
 회사생활을 하면서 수집하거나 직접 만든 매크로들 중에 가장 빈번히 사용하거나 유용한 기능을 모아두었다.
 :::sp
 - 엑셀 : `excel add-in userform xla` <br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01999_macrotoolkit_1.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/01999/01999_macrotoolkit_1.webp)
 :::sp 2
 - 파워포인트 : `powerpoint add-in ppam` <br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01999_macrotoolkit_2.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/01999/01999_macrotoolkit_2.webp)
 :::sp 2
 ## Things to Know 
 - 엑셀은 VBA 사용 이후 `UNDO(ctrl + z)`가 적용되지 않는다. 따라서, 기능이 익숙해지지 않았다면 사용전에 엑셀 파일을 다른이름으로 저장하고 사용하는 것을 추천한다.
