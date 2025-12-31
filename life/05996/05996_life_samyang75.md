@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 뒤늦은 삼양 75mm F1.8 사용기
-slug: 05997
+slug: 05996
 date: 2025-11-03
 # updated: 2025-12-22 # 미설정
 # cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05997/05997_remo_03.png
