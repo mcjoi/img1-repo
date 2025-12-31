@@ -4,7 +4,7 @@ title: 빌트록스 렌즈 - air 시리즈 사용기
 slug: 05999
 date: 2025-12-14
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_04.png
 category: life
 tags:
   - photo
@@ -40,15 +40,7 @@ tags:
 ```
 :::sp
 개인적인 만족도는 50 >= 15 >> 25 >= 20 정도로 기억이 된다. 물론 20은 APS-C에서 사용하는 바람에 평가 절하된 감이 없지 않아 있다.
-:::sp
-개인적으로 광각 렌즈에 돈을 투자하고 싶지 않았는데, 가끔 필요할 때가 있고, 영상을 찍을 요량으로 15를 남겼다. 만약 원렌즈 구성을 한다고 하면 50이 좋은 선택이라고 생각한다.
-- 물론 15 대신 16/4 렌즈가 있지만 F4는 상당히 별로인 조리개 수치이다.
-:::sp 2
 
-## 결론  
-새 렌즈를 사서 쓰는일이 많지 않았는데, 덕분에 새 렌즈를 몇개나 사서 써보는 호사를 누려보았다.<br> 
-무게 앞에 성능을 논하는 것 자체가 의미없는 일이므로, 가볍게 쓸 화각이 뭔지 생각해보고 자주 들고 다니면 그만인 것이다.<br>
-사실, 위에 열거한 무엇을 사도 값어치는 한다는 것은 명확히 말할 수 있는 사실이다.
 :::sp 2
 - 15mm f1.7 air sample
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt15_01.png)
@@ -86,6 +78,16 @@ tags:
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_01.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_02.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_03.png)
+
+:::sp 2
+
+## 결론  
+개인적으로 광각 렌즈에 돈을 투자하고 싶지 않았는데, 가끔 필요할 때가 있고, 영상을 찍을 요량으로 15를 남겼다. <br>
+만약 원렌즈 구성을 한다고 하면 50이 좋은 선택이라고 생각한다. 
+:::sp
+새 렌즈를 사서 쓰는일이 많지 않았는데, 덕분에 새 렌즈를 몇개나 사서 써보는 호사를 몇번이나 누려보았다.<br> 
+무게 앞에 성능을 논하는 것 자체가 의미없는 일이므로, 가볍게 쓸 화각이 뭔지 생각해보고 자주 들고 다니면 그만인 것이다.<br>
+사실, 위에 열거한 무엇을 사도 값어치는 한다는 것은 명확히 말할 수 있는 사실이다.
 
 :::sp 2
 
