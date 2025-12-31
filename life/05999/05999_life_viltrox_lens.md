@@ -64,6 +64,7 @@ tags:
 
 - 50mm f2.0 air sample
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt50_02.png)
 
 :::sp 2
 
