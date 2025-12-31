@@ -1,10 +1,10 @@
 ---
 ### essential info 
-title: 신규 블로그 생성 
+title: 블로그 이사(티스토리 → gitpages) 
 slug: 05998
 date: 2025-12-29
 # updated: 2025-12-22 # 미설정
-# cover: 
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp
 category: life
 tags:
   - blog

@@ -10,10 +10,10 @@
     },
     {
       "slug": "05998_life_newblog",
-      "title": "신규 블로그 생성",
+      "title": "블로그 이사(티스토리 → gitpages)",
       "date": "2025-12-29",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp",
       "md": "life/05998/05998_life_newblog.md"
     },
     {
@@ -93,7 +93,7 @@
       "title": "빌트록스 렌즈 - air 시리즈 사용기",
       "date": "2025-12-14",
       "excerpt": null,
-      "cover": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png",
       "md": "life/05999/05999_life_viltrox_lens.md"
     }
   ]

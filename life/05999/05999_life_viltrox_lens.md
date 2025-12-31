@@ -4,7 +4,7 @@ title: 빌트록스 렌즈 - air 시리즈 사용기
 slug: 05999
 date: 2025-12-14
 # updated: 2025-12-22 # 미설정
-# cover: 
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt25_01.png
 category: life
 tags:
   - photo
