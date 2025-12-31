@@ -41,7 +41,8 @@ tags:
 
 - .xlsx 파일에 VBA 코드를 작성
 - .xlam 파일로 저장한다.
-- xlstart 폴더에 저장한다. (일반적인 xlstart경로 : `C:\Users\[PC이름]\AppData\Roaming\Microsoft\Excel\XLSTART`)
+- xlstart 폴더에 저장한다. (일반적인 xlstart경로 : `C:\Users\[username]\AppData\Roaming\Microsoft\Excel\XLSTART`)
+
 ::sp
 
 xlstart 경로에 저장된 파일은 엑셀 프로그램이 실행되면 그것이 어떤 파일이든 무조건 동반 실행된다. <br>
@@ -58,56 +59,29 @@ xlstart 경로에 저장된 파일은 엑셀 프로그램이 실행되면 그것
 - .ppam : 추가기능(add-in)
 ```
 
- 
+::sp
 
- 
+엑셀이든 파워포인트이든 기본적으로 모든 추가기능은 내가 원하는 저장위치에서 호출이 가능하다. 하지만, 위에 적은 바와 같이, 엑셀의 경우, 시작되는 시점에 자동으로 불러오는 xlstart 폴더가 존재하기 때문에, 해당 폴더에 xlam파일을 저장하는 것이 편하다. 
 
-엑셀과의 차이
-기본적으로 모든 추가기능은 내가 원하는 저장위치에서 호출이 가능하다. 하지만, 엑셀의 경우, 시작되는 시점에 자동으로 불러오는 xlstart 폴더가 존재하기 때문에, 해당 폴더에 xlam파일을 저장하는 것이 편하다.
+::sp
 
- 
+하지만 파워포인트는 시작과 동시에 불러오는 방식이 아니라, 추가기능 파일을 등록해서 사용하는 방식이다. MS에서는 편의상 addin폴더를 두고, 추가기능 파일 등록시 해당 폴더가 열리게 되어있다.
 
-하지만 파워포인트는 시작과 동시에 불러오는 방식이 아니라, 추가기능 파일을 등록해서 사용하는 방식이다. MS에서는 편의상 addin폴더를 두고, 추가기능 파일 등록시 해당 폴더가 열리게 되어있지만, 반드시 addin폴더에 저장해야하는 것은 아니다.
+::sp
 
- 
+- .pptx 파일에 VBA 코드를 작성
+- .pptm 파일로 저장한다.(관리 폴더에 저장해둔다.)
+- .ppam 파일로 저장한다.(다른 이름으로 저장) 자동으로 addin 폴더가 뜨고 확인하면 저장된다. (일반적인 addin 폴더 경로 : `C:\Users\ [username] \AppData\Roaming\Microsoft\AddIns`)
+- powerpoint 추가기능으로 저장해둔 .ppam 파일을 호출한다.
+- 수정이 필요한 경우, 추가기능으로 불러온 .ppam 파일을 해제하고, 관리 폴더에 둔 .pptm파일을 수정, .ppam 파일로 다시 저장한다.
 
-하지만, 편한것은 사실이므로 이렇게 나눠서 생각하자.
+::sp
 
-엑셀 xlstart 폴더 경로 : C:\Users\ [username] \AppData\Roaming\Microsoft\Excel\XLSTART\
-
-파워포인트 addin 폴더 경로 : C:\Users\ [username] \AppData\Roaming\Microsoft\AddIns\
-
- 
-
-추가기능 등록 창
-추가기능 등록 창
- 
-
- 
-
-
- 
-
- 
-
-추가기능 관리
-애석하게도 .ppam파일은 direct로 열어서 수정이 불가능하다. 이에 따라, 파일을 관리하는 방법은 많겠지만, 
-
-ppam파일만을 열면 vba창이 활성화되지 않음
-ppam파일만을 열면 vba창이 활성화되지 않음
- 
-
- 
-
-나의 경우, addin폴더 안에 .pptm 파일과 .ppam 파일을 동시에 두고, .pptm으로 매크로를 수정하고 난 뒤, 다른 이름으로 저장하기로 .ppam파일을 생성한다.
-
- 
-
+엑셀과 마찬가지로 리본메뉴 등록 코드가 VBA로 작성이 되어있어야 한다. <br>
 여기까지 대략적인 설명은 끝이다. 
 
- 
-
-
- 
+::sp 
 
 끝.
+
+::sp2
