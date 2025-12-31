@@ -45,13 +45,13 @@ tags:
 ### 해상력
 빌트록스 50/2처럼 최신에 나온 렌즈만큼 최대개방 해상력이 좋지는 않다. <br>
 그렇다고 완전 구리지는 않지만, 최대개방 매니아인 나도 최대개방으로 놓고 사용하지는 않을 것 같다. 문제는 F2.8까지 조여도, 시그마 56mm에 한참 못미치는 점수라는 것이다.
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_02.png)
+- lenstip / alpha blog 점수
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_02.png "lenstips")
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_03.jpg)
+:::sp 2
+삼양 특유의 옐로우는 거의 없어진 듯하며, MTF 차트상 주변부가 몹시 무너지는 특징은, 주변부에 뭔가를 담기 좁은 화각의 특성상 크게 중요하지 않다고 생각이 든다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_04.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_05.png)
-:::sp 2
-
-삼양 특유의 옐로우는 거의 없어진 듯하며, MTF 차트상 주변부가 몹시 무너지는 특징은, 주변부에 뭔가를 담기 좁은 화각의 특성상 크게 중요하지 않다고 생각이 든다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_06.png)
 :::sp 2
 
