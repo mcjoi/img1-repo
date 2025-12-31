@@ -32,7 +32,7 @@ tags:
 ### .env 파일을 구성하는 방법 
 의외의 어려움은 .env 파일을 구성할 때 나타났는데, `API key` 에는 `\n`을 처리해야하는 부분이 있는데, `json` 구성과 `.env` 파일 구성은 chatGPT에게 템플릿을 만들어 달라고 하는 것이 여러모로 안전하다.
 :::sp
-`.dart file`
+- .dart file
 ```dart
 var cremap = {
   "type": dotenv.get("type"),
@@ -52,7 +52,8 @@ var cremapJson = jsonEncode(cremap);
 final gsheets = GSheets(cremapJson);
 ```
 :::sp 2
-`.env file`
+
+- .env file
 ```dart
 type = service_account
 private_key = "-----BEGIN PRIVATE KEY-----\nMI
