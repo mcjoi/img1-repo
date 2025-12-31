@@ -46,7 +46,7 @@ tags:
 빌트록스 50/2처럼 최신에 나온 렌즈만큼 최대개방 해상력이 좋지는 않다. <br>
 그렇다고 완전 구리지는 않지만, 최대개방 매니아인 나도 최대개방으로 놓고 사용하지는 않을 것 같다. 문제는 F2.8까지 조여도, 시그마 56mm에 한참 못미치는 점수라는 것이다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_02.png)
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_03.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_03.jpg)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_04.png)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_05.png)
 :::sp 2
