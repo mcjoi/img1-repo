@@ -6,7 +6,7 @@
       "date": "2025-12-29",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
-      "md": "office/01996_ppt_excel_table_copy.md"
+      "md": "office/01996/01996_ppt_excel_table_copy.md"
     },
     {
       "slug": "05998_life_newblog",
@@ -17,12 +17,12 @@
       "md": "life/05998/05998_life_newblog.md"
     },
     {
-      "slug": "05999_life_viltrox_lens",
-      "title": "빌트록스 렌즈 - air 시리즈 사용기",
-      "date": "2025-12-27",
+      "slug": "01999_mt_intro",
+      "title": "MacroToolkit - overview",
+      "date": "2025-12-22",
       "excerpt": null,
-      "cover": null,
-      "md": "life/05999/05999_life_viltrox_lens.md"
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
+      "md": "office/01999/01999_mt_intro.md"
     },
     {
       "slug": "01997_mt_ppt",
@@ -30,7 +30,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/04_powerpoint.webp",
-      "md": "office/01997_mt_ppt.md"
+      "md": "office/01997/01997_mt_ppt.md"
     },
     {
       "slug": "01998_mt_ex",
@@ -38,23 +38,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/05_excel.webp",
-      "md": "office/01998_mt_ex.md"
-    },
-    {
-      "slug": "01999_mt_intro",
-      "title": "MacroToolkit - overview",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/02_vba.webp",
-      "md": "office/01999_mt_intro.md"
-    },
-    {
-      "slug": "02999_py_extracting_table_pdf",
-      "title": "python - PDF에서 테이블 추출하기",
-      "date": "2025-12-22",
-      "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
-      "md": "python/02999_py_extracting_table_pdf.md"
+      "md": "office/01998/01998_mt_ex.md"
     },
     {
       "slug": "02997_py_webp_convertor",
@@ -62,7 +46,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
-      "md": "python/02997_py_webp_convertor.md"
+      "md": "python/02997/02997_py_webp_convertor.md"
     },
     {
       "slug": "02998_py_move_file_ext",
@@ -70,7 +54,15 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
-      "md": "python/02998_py_move_file_ext.md"
+      "md": "python/02998/02998_py_move_file_ext.md"
+    },
+    {
+      "slug": "02999_py_extracting_table_pdf",
+      "title": "python - PDF에서 테이블 추출하기",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/01_python.webp",
+      "md": "python/02999/02999_py_extracting_table_pdf.md"
     },
     {
       "slug": "03999_fl_hiding_key",
@@ -78,7 +70,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
-      "md": "flutter/03999_fl_hiding_key.md"
+      "md": "flutter/03999/03999_fl_hiding_key.md"
     },
     {
       "slug": "03997_fl_desktopshrortcut",
@@ -86,7 +78,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
-      "md": "flutter/03997_fl_desktopshrortcut.md"
+      "md": "flutter/03997/03997_fl_desktopshrortcut.md"
     },
     {
       "slug": "03998_fl_click_ani",
@@ -94,7 +86,15 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/img/03_flutter.webp",
-      "md": "flutter/03998_fl_click_ani.md"
+      "md": "flutter/03998/03998_fl_click_ani.md"
+    },
+    {
+      "slug": "05999_life_viltrox_lens",
+      "title": "빌트록스 렌즈 - air 시리즈 사용기",
+      "date": "2025-12-14",
+      "excerpt": null,
+      "cover": null,
+      "md": "life/05999/05999_life_viltrox_lens.md"
     }
   ]
 }
