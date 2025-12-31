@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: 소니 카메라(A7C2) 리모컨 - 알리
+title: 소니 4세대 카메라(A7C2) 리모컨 - 알리
 slug: 05997
 date: 2025-12-31
 # updated: 2025-12-22 # 미설정
