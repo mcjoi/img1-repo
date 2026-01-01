@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 파워포인트 - 도형 잠그기(office2019)
-slug: 01995
+slug: 01994
 date: 2026-01-02
 # updated: 2025-12-22
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp
