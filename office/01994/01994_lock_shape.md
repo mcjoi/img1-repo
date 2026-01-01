@@ -26,7 +26,7 @@ tags:
 
 ### VBA코드
 VBA사용 코드를 모르는 경우, 아래 글을 참고한다.
-::btn https://mcjoi.github.io/#/post/1996 VBA사용법
+:::btn https://mcjoi.github.io/#/post/1996 VBA사용법
 
 ::sp2
 vba에 표준 모듈 2개와 클래스 모듈 1개를 만든다. 클래스 모듈의 이름을 clsPPTEvent 로 한다.
@@ -123,11 +123,12 @@ End Sub
 ::sp2
 
 방식은 
-- 1번 표준 모듈의 MarkSelectedShapesAsLocked 로 선택한 도형에 마킹을 한다.
-- 2번 표준 모듈의 StartLockMonitor 로 모니터링을 시작한다.
+- 1번 표준 모듈의 `MarkSelectedShapesAsLocked` 로 선택한 도형에 마킹을 한다.
+- 2번 표준 모듈의 `StartLockMonitor` 로 모니터링을 시작한다.
 ::sp
+
 해제를 원한다면,
-- 1번 표준모듈의 UnlockLockedShapesOnCurrentSlide 또는 UnlockAllLockedShapes 를 사용한다. 
+- 1번 표준모듈의 `UnlockLockedShapesOnCurrentSlide` 또는 `UnlockAllLockedShapes` 를 사용한다. 
 - 선택된 슬라이드만 해제할지 전체를 해제할지에 따라 나뉜다.
 ::sp2
 
