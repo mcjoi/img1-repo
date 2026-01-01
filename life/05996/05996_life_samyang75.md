@@ -41,7 +41,7 @@ tags:
 ::sp
 초반 발표때 custom 스위치를 정말 custom하게 설정할 수 있다고 홍보했던 것으로 알고 있으나, 사실 dock이 없으면 기능을 변경할 수 없고, 초점/조리개 말고 다른 custom 기능이 있다는 소식을 발견하지는 못했다.
 ::sp2
- 
+                   ㅜ
 ### 해상력
 빌트록스 50/2처럼 최신에 나온 렌즈만큼 최대개방 해상력이 좋지는 않다. <br>
 그렇다고 완전 구리지는 않지만, 최대개방 매니아인 나도 최대개방으로 놓고 사용하지는 않을 것 같다. 문제는 F2.8까지 조여도, 시그마 56mm에 한참 못미치는 점수라는 것이다.
@@ -49,6 +49,7 @@ tags:
 - lenstip 점수 <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_02.png "lenstips")
 ::sp
+
 - alpha blog 점수 <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_03.jpg)
 ::sp2

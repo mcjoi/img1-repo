@@ -2,6 +2,14 @@
   "posts": [
     {
       "slug": "01995_using_vba",
+      "title": "파워포인트 - 도형 잠그기(office2019)",
+      "date": "2026-01-02",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
+      "md": "office/01994/01995_using_vba.md"
+    },
+    {
+      "slug": "01995_using_vba",
       "title": "엑셀-파워포인트 VBA/매크로 사용하기",
       "date": "2025-12-31",
       "excerpt": null,
