@@ -57,8 +57,6 @@ tags:
 ::sp
 
 ::sp2
-***
-::sp2
 
 ## Cell format Script
 ### cell outline (1) : lineGray
@@ -94,8 +92,6 @@ Copy the color of the selected cell and paste it to the cell that is selected.
 Copy the width & height of the selected cell and paste it to the cell that is selected.
 
 ::sp2   
-***     
-::sp2
  
 ## Value format Script
 ### Number format (1) - formatNum_normal
@@ -125,8 +121,6 @@ Delete hyperlinks. The format is all erased together.
 Delete all the spaces of the selected cell.
 
 ::sp2   
-***     
-::sp2
 
 ## Function Script
 ### savebysheetname
@@ -149,8 +143,6 @@ Set the font of active sheet to "Segoe UI" 10pt.
 → if using Korean apply "Malgun Gothic"
 
 ::sp2   
-***     
-::sp2
 
 ## Data Util Script
 ### Calculation (1) - growthRate
@@ -194,8 +186,6 @@ split text from pdf table.
 Excel file size diet. check all sheet and clear.
 
 ::sp2   
-***     
-::sp2
 
 ## Version History
 대충 의미있는 업데이트만 정리를 해본다.  <br>
@@ -220,8 +210,6 @@ Adjusts table size via UserForm. <br>
 Removes blanks created when copying tables in Excel; note it removes all spaces in the table
 
 ::sp2
-***
-::sp2
 
 ## Sctipt-color
 ### RGB_color
@@ -230,8 +218,6 @@ Displays RGB values of the selected shape via UserForm. <br>
 ::sp
 ### Color_palette
 Creates a color palette in the slide master - newly added feature.
-::sp2
-***
 ::sp2
 
 ## Sctipt-text
@@ -242,8 +228,7 @@ Adjusts letter spacing of `Malgun Gothic` font to 0.3.
 Sets margins of text boxes or shapes to zero.
 
 ::sp2
-***
-::sp2
+
 
 ## Sctipt-slide
 ### jpg export
@@ -255,8 +240,6 @@ Changes slide size based on pixel dimensions.
 ### groupRelease
 Ungroups all groups on all slides at once.
 
-::sp2
-***
 ::sp2
 
 ## Sctipt-shape
