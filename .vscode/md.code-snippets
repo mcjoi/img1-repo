@@ -2,7 +2,7 @@
 	
 	"1_line_space": {
 		
-		"prefix": "z",
+		"prefix": "ㅋ",
 		"body": [
 			"::sp"			
 		],
@@ -11,7 +11,7 @@
 
 	"2_line_space": {
 		
-		"prefix": "x",
+		"prefix": "ㅌ",
 		"body": [
 			"::sp2"			
 		],
@@ -19,7 +19,7 @@
 	},
 	"br": {
 		
-		"prefix": "c",
+		"prefix": "ㅊ",
 		"body": [
 			"<br>"			
 		],
