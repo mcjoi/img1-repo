@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: MacroToolkit - overview
+title: MacroToolkit - excel, powerpoint
 slug: 01999
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정
@@ -18,7 +18,6 @@ tags:
 # draft: false #미설정 
 ---
 
-# MacroToolKit
 ## What is it?
 회사생활을 하면서 수집하거나 직접 만든 매크로들 중에 가장 빈번히 사용하거나 유용한 기능을 모아두었다.
 ::sp
