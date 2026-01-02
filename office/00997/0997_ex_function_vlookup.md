@@ -18,7 +18,7 @@ tags:
 
 ### vlookup
 아래 그림처럼 데이터 테이블이 있고, 찾고자 하는 기준이 있다면, 그 값을 찾아, 원하는 열의 값을 반환해주는 함수이다.
-::sp2
+::sp
 표 중에서 사과의 가격을 찾고 싶다고 하자. <br>
 (값이 가로로 배치 되어 있으니, Vlookup(vertical)을 쓰고, 세로로 배치되어 있다면 Hlookup(horizontal)을 쓴다.)
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00997/00997_1.jpg)
