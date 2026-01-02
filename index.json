@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "slug": "01994_vba_lock_shape",
+      "slug": "01994",
       "title": "파워포인트 - 도형 잠그기(office2019)",
       "date": "2026-01-02",
       "excerpt": null,
@@ -9,7 +9,7 @@
       "md": "office_vba/01994/01994_vba_lock_shape.md"
     },
     {
-      "slug": "01995_vba_using_vba",
+      "slug": "01996",
       "title": "엑셀-파워포인트 VBA/매크로 사용하기",
       "date": "2025-12-31",
       "excerpt": null,
@@ -17,7 +17,7 @@
       "md": "office_vba/01995/01995_vba_using_vba.md"
     },
     {
-      "slug": "05997_life_camera_remote",
+      "slug": "05997",
       "title": "소니 4세대 카메라(A7C2) 리모컨 - 알리",
       "date": "2025-12-31",
       "excerpt": null,
@@ -25,7 +25,7 @@
       "md": "life/05997/05997_life_camera_remote.md"
     },
     {
-      "slug": "01996_ppt_excel_table_copy",
+      "slug": "01996",
       "title": "엑셀-파워포인트 테이블(표) 연동 관련",
       "date": "2025-12-29",
       "excerpt": null,
@@ -33,7 +33,7 @@
       "md": "office_vba/01996/01996_ppt_excel_table_copy.md"
     },
     {
-      "slug": "05998_life_newblog",
+      "slug": "05998",
       "title": "블로그 이사(티스토리 → gitpages)",
       "date": "2025-12-29",
       "excerpt": null,
@@ -41,7 +41,7 @@
       "md": "life/05998/05998_life_newblog.md"
     },
     {
-      "slug": "01999_mt_intro",
+      "slug": "01999",
       "title": "MacroToolkit - excel, powerpoint",
       "date": "2025-12-22",
       "excerpt": null,
@@ -49,7 +49,7 @@
       "md": "office_vba/01999/01999_mt_intro.md"
     },
     {
-      "slug": "0998_ex_circular_ref",
+      "slug": "00998",
       "title": "엑셀 - 순환참조 없애기",
       "date": "2025-12-22",
       "excerpt": null,
@@ -57,7 +57,7 @@
       "md": "office/00998/0998_ex_circular_ref.md"
     },
     {
-      "slug": "00997_ex_fn_vlookup_rank_dsum",
+      "slug": "00997",
       "title": "엑셀 - 함수 - vlookup, rank, dsum",
       "date": "2025-12-22",
       "excerpt": null,
@@ -65,7 +65,7 @@
       "md": "office/00997/00997_ex_fn_vlookup_rank_dsum.md"
     },
     {
-      "slug": "00995_ex_fn_index_match",
+      "slug": "00995",
       "title": "엑셀 - 함수 - numberstring(숫자 한글로 바꾸기)",
       "date": "2025-12-22",
       "excerpt": null,
@@ -73,7 +73,7 @@
       "md": "office/00995/00995_ex_fn_index_match.md"
     },
     {
-      "slug": "00996_ex_fn_index_match",
+      "slug": "00996",
       "title": "엑셀 - 함수 - 조건값 찾기, 배열수식",
       "date": "2025-12-22",
       "excerpt": null,
@@ -81,7 +81,7 @@
       "md": "office/00996/00996_ex_fn_index_match.md"
     },
     {
-      "slug": "02997_py_webp_convertor",
+      "slug": "02997",
       "title": "python - Webp 변환 유틸",
       "date": "2025-12-22",
       "excerpt": null,
@@ -89,7 +89,7 @@
       "md": "python/02997/02997_py_webp_convertor.md"
     },
     {
-      "slug": "02998_py_move_file_ext",
+      "slug": "02998",
       "title": "pyhton - 확장자별 폴더생성, 이동",
       "date": "2025-12-22",
       "excerpt": null,
@@ -97,7 +97,7 @@
       "md": "python/02998/02998_py_move_file_ext.md"
     },
     {
-      "slug": "02999_py_extracting_table_pdf",
+      "slug": "02999",
       "title": "python - PDF에서 테이블 추출하기",
       "date": "2025-12-22",
       "excerpt": null,
@@ -105,7 +105,7 @@
       "md": "python/02999/02999_py_extracting_table_pdf.md"
     },
     {
-      "slug": "03999_fl_hiding_key",
+      "slug": "03999",
       "title": "flutter - Google API key 감추기",
       "date": "2025-12-22",
       "excerpt": null,
@@ -113,7 +113,7 @@
       "md": "flutter/03999/03999_fl_hiding_key.md"
     },
     {
-      "slug": "03997_fl_desktopshrortcut",
+      "slug": "03997",
       "title": "flutter - Desktop Shortcut",
       "date": "2025-12-22",
       "excerpt": null,
@@ -121,7 +121,7 @@
       "md": "flutter/03997/03997_fl_desktopshrortcut.md"
     },
     {
-      "slug": "03998_fl_click_ani",
+      "slug": "03998",
       "title": "flutter - Mouse Click Animation",
       "date": "2025-12-22",
       "excerpt": null,
@@ -129,7 +129,7 @@
       "md": "flutter/03998/03998_fl_click_ani.md"
     },
     {
-      "slug": "05999_life_viltrox_lens",
+      "slug": "05999",
       "title": "빌트록스 air 시리즈 사용기 (15,20,25,50)",
       "date": "2025-12-14",
       "excerpt": null,
@@ -137,7 +137,7 @@
       "md": "life/05999/05999_life_viltrox_lens.md"
     },
     {
-      "slug": "05996_life_samyang75",
+      "slug": "05996",
       "title": "뒤늦은 삼양 75mm F1.8 사용기",
       "date": "2025-11-03",
       "excerpt": null,
@@ -145,7 +145,7 @@
       "md": "life/05996/05996_life_samyang75.md"
     },
     {
-      "slug": "00999_ex_copy_visible",
+      "slug": "00999",
       "title": "엑셀 - 보이는 셀만 복사하기",
       "date": "2024-01-24",
       "excerpt": null,
