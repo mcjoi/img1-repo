@@ -91,6 +91,7 @@ End Function
 ```
 ::sp2
 
+### 사용방법
 argument의 구성은 다음과 같다. 친절하게 주석도 달아주는 것이 아주 좋다.
 ```text
 lookup_value : 찾을 값
