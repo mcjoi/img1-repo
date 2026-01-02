@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 엑셀 - 함수 - numberstring(숫자 한글로 바꾸기)
-slug: 00996
+slug: 00995
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp
@@ -38,7 +38,7 @@ tags:
 ::sp 
 
 무슨 말인지는 그냥 그림만 보면 이해가 갈 것이다. "원정" 이라는 말도 아예 붙여 버렸다.
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_01.jpg)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00995/00995_01.jpg)
 ::sp2
 
 
