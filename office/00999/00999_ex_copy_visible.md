@@ -4,7 +4,7 @@ title: 엑셀 - 보이는 셀만 복사하기
 slug: 00999
 date: 2024-01-24
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_excel.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp
 category: excel
 tags:
   # - powerpoint
