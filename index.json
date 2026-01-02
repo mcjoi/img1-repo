@@ -73,6 +73,14 @@
       "md": "office/00998/0998_ex_circular_ref.md"
     },
     {
+      "slug": "0997_ex_function_vlookup",
+      "title": "엑셀 - 함수 - vlookup",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
+      "md": "office/00997/0997_ex_function_vlookup.md"
+    },
+    {
       "slug": "02997_py_webp_convertor",
       "title": "python - Webp 변환 유틸",
       "date": "2025-12-22",
