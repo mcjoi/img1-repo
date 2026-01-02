@@ -30,9 +30,10 @@ tags:
 
 인수는 총 4개로, 아래와 같이 구성된다.
 ```text
-Lookup_value -> 찾을값(셀을 지정하거나, 값을 그냥 입력해도 된다)
-Table_array ->값을 찾을 표, Col_index_num -> 표 안에서 몇 번째 열의 값을 반환할지
-Range_lookup -> 정확하게 일치하는 값을 찾는다면 false, 유사한 값을 찾는다면, true 를 기입한다.
+Lookup_value → 찾을값(셀을 지정하거나, 값을 그냥 입력해도 된다)
+Table_array → 값을 찾을 표(영역 또는 표이름, 이름정의) 
+Col_index_num → 표 안에서 몇 번째 열의 값을 반환할지(첫번째 열은 1)
+Range_lookup → 정확하게 일치하는 값을 찾는다면 false, 유사한 값을 찾는다면, true 를 기입한다.
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00997/00997_3.jpg)
 ::sp2
