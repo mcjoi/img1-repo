@@ -81,12 +81,12 @@
       "md": "office/00997/00997_ex_fn_vlookup_rank_dsum.md"
     },
     {
-      "slug": "09996_ex_function_rank",
-      "title": "엑셀 - 함수 - vlookup",
+      "slug": "00996_ex_fn_numberstring",
+      "title": "엑셀 - 함수 - numberstring(숫자 한글로 바꾸기)",
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
-      "md": "office/00996/09996_ex_function_rank.md"
+      "md": "office/00996/00996_ex_fn_numberstring.md"
     },
     {
       "slug": "02997_py_webp_convertor",
