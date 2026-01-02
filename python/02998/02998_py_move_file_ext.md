@@ -25,7 +25,7 @@ tags:
 룰은 mov, arw 파일만 폴더를 생성하여 옮겨준다.
 - 필요하다만, 확장자 리스트를 변경하거나, 추가해주면 된다.
 ::sp 2
-`sample_code.py`
+- sample_code.py
 ```python
 import os
 import tkinter
@@ -81,6 +81,5 @@ if __name__ == '__main__':
     print("complete")  
 ```
 
-## 확장자를 추가할 필요가 있었다.
-소니카메라에서 추출한 파일을 백업하기 위해 바탕화면에 옮기다보면, arw, jpg, mov 파일이 뒤죽박죽 섞여있는데, 일일이 옮기기 귀찮은 경우가 있다. 그래서 약간의 커스터마이징을 진행했다.
 
+::sp2
