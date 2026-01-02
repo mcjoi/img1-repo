@@ -1,20 +1,20 @@
 {
   "posts": [
     {
-      "slug": "01994_lock_shape",
+      "slug": "01994_vba_lock_shape",
       "title": "파워포인트 - 도형 잠그기(office2019)",
       "date": "2026-01-02",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
-      "md": "office/01994/01994_lock_shape.md"
+      "md": "office_vba/01994/01994_vba_lock_shape.md"
     },
     {
-      "slug": "01995_using_vba",
+      "slug": "01995_vba_using_vba",
       "title": "엑셀-파워포인트 VBA/매크로 사용하기",
       "date": "2025-12-31",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/02_vba.webp",
-      "md": "office/01995/01995_using_vba.md"
+      "md": "office_vba/01995/01995_vba_using_vba.md"
     },
     {
       "slug": "05997_life_camera_remote",
@@ -30,7 +30,7 @@
       "date": "2025-12-29",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
-      "md": "office/01996/01996_ppt_excel_table_copy.md"
+      "md": "office_vba/01996/01996_ppt_excel_table_copy.md"
     },
     {
       "slug": "05998_life_newblog",
@@ -46,7 +46,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/02_vba.webp",
-      "md": "office/01999/01999_mt_intro.md"
+      "md": "office_vba/01999/01999_mt_intro.md"
     },
     {
       "slug": "01997_mt_ppt",
@@ -54,7 +54,7 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp",
-      "md": "office/01997/01997_mt_ppt.md"
+      "md": "office_vba/01997/01997_mt_ppt.md"
     },
     {
       "slug": "01998_mt_ex",
@@ -62,7 +62,15 @@
       "date": "2025-12-22",
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
-      "md": "office/01998/01998_mt_ex.md"
+      "md": "office_vba/01998/01998_mt_ex.md"
+    },
+    {
+      "slug": "0998_ex_circular_ref",
+      "title": "엑셀 - 순환참조 없애기",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
+      "md": "office/00998/0998_ex_circular_ref.md"
     },
     {
       "slug": "02997_py_webp_convertor",
@@ -127,6 +135,14 @@
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_04.png",
       "md": "life/05996/05996_life_samyang75.md"
+    },
+    {
+      "slug": "00999_ex_copy_visible",
+      "title": "엑셀 - 보이는 셀만 복사하기",
+      "date": "2024-01-24",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_excel.webp",
+      "md": "office/00999/00999_ex_copy_visible.md"
     }
   ]
 }
