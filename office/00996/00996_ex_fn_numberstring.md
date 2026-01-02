@@ -38,7 +38,7 @@ tags:
 ::sp 
 
 무슨 말인지는 그냥 그림만 보면 이해가 갈 것이다. "원정" 이라는 말도 아예 붙여 버렸다.
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00997/00996_01.jpg)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_01.jpg)
 ::sp2
 
 
