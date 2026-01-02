@@ -20,7 +20,9 @@ tags:
 
 ::sp
 
-## index, match
+
+## 조건값 찾기
+### index, match
 조건 값 찾기의 다양한 방법 중, index, match는 중요하다. <br>
 xlookup이 나오기 전까지는 조건보다 좌측에 위치한 컬럼값을 찾는 경우, 거의 유일한 방법이기도 했다. <br>
 - 그 말은 지금은 그냥 xlookup 쓰면 된다는 뜻이다.
@@ -68,7 +70,7 @@ INDEX(영역, X, Y) 가 되겠다.
 ::sp2
 
 
-## sumproduct, sum 배열
+### sumproduct, sum 배열
 SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사용법이 비슷하다. <br>
 대충 써보면 아래와 같다.
 ```text
@@ -88,6 +90,8 @@ SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사�
 
 ::sp
 
+
+## 배열수식
 ### sum 배열에서 와일드카드 문자 사용
 sumif와 sum배열 두 가지 함수 사용에 있어 차이는 뭐라고 생각이 들지 모르겠다. <br>
 개인적인 생각은 sumif는 조건에 와일드카드문자(*)를 사용할 수 있다는 장점을 가지고, <br>
