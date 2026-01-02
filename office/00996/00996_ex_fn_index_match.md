@@ -66,10 +66,14 @@ INDEX(영역, X, Y) 가 되겠다.
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_04.jpg)
 ::sp2
-
 ::sp2
 
+:::youtube g9wcalBgw2E
 
+::sp
+
+
+## 배열수식
 ### sumproduct, sum 배열
 SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사용법이 비슷하다. <br>
 대충 써보면 아래와 같다. <br>
@@ -84,14 +88,7 @@ SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사�
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_06.jpg)
 ::sp2
 
-::sp2
 
-:::youtube g9wcalBgw2E
-
-::sp
-
-
-## 배열수식
 ### sum 배열에서 와일드카드 문자 사용
 sumif와 sum배열 두 가지 함수 사용에 있어 차이는 뭐라고 생각이 들지 모르겠다. <br>
 개인적인 생각은 sumif는 조건에 와일드카드문자(*)를 사용할 수 있다는 장점을 가지고, <br>
@@ -107,7 +104,7 @@ sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 
 ::sp
 사용된 수식을 보면 입금은행 셀에서 "국민" 또는 "기업" 문자열을 FIND 함수로 찾고, <br>
 이를 COUNT 함수로 에러가 아닌값을 숫자로 변환, <br>
-- 결과가 0일 경우(같은 값이 없을 경우)IF 함수에서 FALSE 값인 "우리은행"을 반환하고, <Br>
+- 결과가 0일 경우(같은 값이 없을 경우)IF 함수에서 FALSE 값인 "우리은행"을 반환하고, <br>
 - 결과가 1 이상일 경우(같은 값이 있을 경우),IF 함수의 TRUE 값을 반환하게 된다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_08.jpg)
 ::sp2
