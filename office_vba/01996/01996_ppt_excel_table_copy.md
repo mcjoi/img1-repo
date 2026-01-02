@@ -5,7 +5,7 @@ slug: 01996
 date: 2025-12-29
 # updated: 2025-12-22
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp
-category: dev
+category: office
 tags: 
   - powerpoint
   # - macrotoolkit
