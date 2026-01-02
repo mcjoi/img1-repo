@@ -73,6 +73,14 @@
       "md": "office/00995/00995_ex_fn_numstring.md"
     },
     {
+      "slug": "00994",
+      "title": "엑셀 - 함수 - 오피스 하위버전(2019)에서 xlookup함수 사용하기",
+      "date": "2025-12-22",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
+      "md": "office/00994/00994_ex_fn_xlookup.md"
+    },
+    {
       "slug": "00996",
       "title": "엑셀 - 함수 - 조건값 찾기, 배열수식",
       "date": "2025-12-22",
