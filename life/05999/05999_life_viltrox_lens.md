@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 빌트록스 air 시리즈 사용기 (15,20,25,50)
-slug: 05999
+slug: '05999'
 date: 2025-12-14
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05999/05999_vilt20_04.png

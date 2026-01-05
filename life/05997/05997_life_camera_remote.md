@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 소니 4세대 카메라(A7C2) 리모컨 - 알리
-slug: 05997
+slug: '05997'
 date: 2025-12-31
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05997/05997_remo_03.png

@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 블로그 이사(티스토리 → gitpages) 
-slug: 05998
+slug: '05998'
 date: 2025-12-29
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp
