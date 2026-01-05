@@ -153,6 +153,14 @@
       "md": "life/05996/05996_life_samyang75.md"
     },
     {
+      "slug": "05995",
+      "title": "카카오스토리 데이터 백업",
+      "date": "2025-01-05",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/00_img/00_noimage.png",
+      "md": "life/05995/05995_life_ks_backup.md"
+    },
+    {
       "slug": "00999",
       "title": "엑셀 - 보이는 셀만 복사하기",
       "date": "2024-01-24",
