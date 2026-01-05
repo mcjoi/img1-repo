@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 엑셀-파워포인트 VBA/매크로 사용하기
-slug: 01996
+slug: '01995'
 date: 2025-12-31
 # updated: 2025-12-22
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/02_vba.webp

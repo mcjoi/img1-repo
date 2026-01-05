@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 엑셀-파워포인트 테이블(표) 연동 관련
-slug: 01996
+slug: '01996'
 date: 2025-12-29
 # updated: 2025-12-22
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/04_powerpoint.webp

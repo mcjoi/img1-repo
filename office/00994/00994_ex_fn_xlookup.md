@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: 엑셀 - 함수 - 오피스 하위버전(2019)에서 xlookup함수 사용하기
-slug: 00994
+slug: '00994'
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp
