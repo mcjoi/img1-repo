@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "slug": "05995",
+      "title": "카카오스토리 데이터 백업",
+      "date": "2026-01-05",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp",
+      "md": "life/05995/05995_life_ks_backup.md"
+    },
+    {
       "slug": "01994",
       "title": "파워포인트 - 도형 잠그기(office2019)",
       "date": "2026-01-02",
@@ -151,14 +159,6 @@
       "excerpt": null,
       "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05996/05996_samyan75_04.png",
       "md": "life/05996/05996_life_samyang75.md"
-    },
-    {
-      "slug": "05995",
-      "title": "카카오스토리 데이터 백업",
-      "date": "2025-01-05",
-      "excerpt": null,
-      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp",
-      "md": "life/05995/05995_life_ks_backup.md"
     },
     {
       "slug": "00999",
