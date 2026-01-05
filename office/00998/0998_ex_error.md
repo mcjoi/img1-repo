@@ -3,7 +3,7 @@
 title: 엑셀 - 셀 값 오류와 순환참조 에러
 slug: 00998
 date: 2025-12-22
-# updated: 2025-12-22 # 미설정
+updated: 2026-01-05
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp
 category: office
 tags:
