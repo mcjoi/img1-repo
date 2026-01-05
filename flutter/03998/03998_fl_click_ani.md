@@ -1,7 +1,7 @@
 ---
 ### essential info 
 title: flutter - Mouse Click Animation
-slug: 03998
+slug: '03998'
 date: 2025-12-22
 # updated: 2025-12-22 # 미설정 
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/03_flutter.webp
