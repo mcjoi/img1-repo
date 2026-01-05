@@ -61,7 +61,7 @@ a1:b2 array에서 true인 1, 3번째이므로, 위의 if문이 반환하는 배�
 ::sp
 여기서 1차원 배열의 성분값(n)은 동일해야 한다.  n=3인 경우를 예로 들면 대략 구조는 다음과 같이 된다. 
 ```vb
-= sum(if({true, true, false}}*{true, false, true}, {1,2,3}}))
+= sum(if({true, true, false}*{true, false, true}, {1,2,3}))
 ```
 위 수식의 결과 값은 1이 된다. 여기서 사용된 조건식 사이의 * 는 and 조건을 의미하는데, 이유는 true 는 1이고, false는 0이니, 각 값을 곱하면, {1, 0, 0} = {true, false, false} 가 되는 것이다. 
 ::sp
