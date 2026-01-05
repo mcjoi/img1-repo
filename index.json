@@ -10,6 +10,15 @@
       "md": "office/00998/0998_ex_error.md"
     },
     {
+      "slug": "00993",
+      "title": "엑셀 - 배열수식",
+      "date": "2026-01-05",
+      "updated": "2026-01-05",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/05_excel.webp",
+      "md": "office/00993/00993_ex_array_formula.md"
+    },
+    {
       "slug": "05994",
       "title": "광각 렌즈와 해상력 그리고 후드",
       "date": "2026-01-05",
