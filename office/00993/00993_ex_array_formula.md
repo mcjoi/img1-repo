@@ -103,6 +103,7 @@ mtcars 데이터 셋을 가지고 간단한 연습을 해본다. 컬럼 이름�
 ```vb
 ' 아래 두개 수식은 동일한 결과임
 {=SUM(IF( (ISNUMBER(FIND({"Mazda"}, model)) + ISNUMBER(FIND({"Merc"}, model))) * (carb=4), gear))} 'result : 16
+' 사칙연산이므로, or(+) 보다 and(*) 가 먼저 처리 되니, or(+)을 먼저 처리하는 경우, 반드시 괄호처리 필요
 {=SUM(IF( ISNUMBER(FIND({"Merc","Mazda"}, model)) * (carb=4), gear))} 'result : 16
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_4.webp)
