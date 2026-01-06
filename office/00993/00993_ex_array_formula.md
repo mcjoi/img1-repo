@@ -73,5 +73,42 @@ a1:b2 array에서 true인 1, 3번째이므로, 위의 if문이 반환하는 배�
 
 ::sp2
 
+### 예제
+mtcars 데이터 셋을 가지고 간단한 연습을 해본다. 컬럼 이름은 사전에 이름정의를 해두었다.
+::sp
+
+- 조건에 맞는 갯수 구하기 : carb 컬럼 값이 "4" 인 model의 count
+```vb
+{=SUM(IF(carb=4,1))} 'result : 10
+```
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_1.webp)
+::sp2
+
+- 조건에 맞는 배열의 합계 구하기 : carb 컬럼 값이 "4" 인 model의 gear 값 합계
+```vb
+{=SUM(IF(carb=4,gear))} 'result : 36
+```
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_2.webp)
+::sp2
+
+- 특정 글자가 포함된 조건 사용(와일드 카드 문자) : model에 "Merc" 문자열이 포함되고, carb가 "4" 인 model 의 gear 값 합계
+```vb
+{=SUM(IF(ISNUMBER(FIND("Merc", model))*(carb=4),gear))} 'result : 8
+```
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_3.webp)
+::sp2
+
+
+- 특정 글자가 포함된 조건 사용(와일드 카드 문자) + or 옵션 : model에 "Merc" 또는 "Mazda" 문자열이 포함되고, carb가 "4" 인 model 의 gear 값 합계
+```vb
+{=SUM(IF( ISNUMBER(FIND({"Merc","Mazda"}, model)) * (carb=4), gear))} 'result : 16
+```
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_4.webp)
+::sp2
+
+
+몇 가지 예제를 적었지만, 기호에 따라 다양한 함수 또는 조건을 넣을 수 있다. 개인적으로 sumifs 보다 자유도가 높다는 점에서 선호하는 방식이기도 하다.
+::sp
+
 끝.
 ::sp2
