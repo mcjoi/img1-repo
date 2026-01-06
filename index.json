@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "05993",
+      "title": "원하는 사이즈로 윈도우(창) 크기 조절",
+      "date": "2026-01-06",
+      "updated": "2026-01-06",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp",
+      "md": "life/05993/05993_life_window_resize.md"
+    },
+    {
       "slug": "00998",
       "title": "엑셀 - 셀 값 오류와 순환참조 에러",
       "date": "2025-12-22",
