@@ -9,17 +9,43 @@
 		"description": "1_line"
 	},
 
+		"1_line_space2": {
+		
+		"prefix": "z",
+		"body": [
+			"::sp"			
+		],
+		"description": "1_line"
+	},
+
 	"2_line_space": {
 		
 		"prefix": "ㅌ",
 		"body": [
-			"::sp2"			
+			"::sp3"			
 		],
-		"description": "2_line"
+		"description": "3_line"
+	},
+
+	"2_line_space2": {
+		
+		"prefix": "x",
+		"body": [
+			"::sp3"			
+		],
+		"description": "3_line"
 	},
 	"br": {
 		
 		"prefix": "ㅊ",
+		"body": [
+			"<br>"			
+		],
+		"description": "br"
+	},
+	"br2": {
+		
+		"prefix": "c",
 		"body": [
 			"<br>"			
 		],
