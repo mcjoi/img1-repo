@@ -22,13 +22,13 @@ tags:
 오피스365에는 도형 잠그기 기능이 있어 배경 등으로 사용된 박스, 이미지가 선택되지 않도록 할 수 있다. <br>
 애석하게도 오피스2019버전에는 도형 잠그기 기능이 없는데.. 우회하는 방법으로 비슷하게 사용은 할 수 있다.
 
-::sp2
+::sp3
 
 ### VBA코드
 VBA사용 코드를 모르는 경우, 아래 글을 참고한다.
 :::btn https://sunny-bong.web.app/post/01995 VBA사용법
 
-::sp2
+::sp3
 vba에 표준 모듈 2개와 클래스 모듈 1개를 만든다. 클래스 모듈의 이름을 `clsPPTEvent` 로 한다.
 ::sp
 - 1번 표준 모듈 <br>
@@ -80,7 +80,7 @@ Sub UnlockAllLockedShapes()
     MsgBox "프레젠테이션의 모든 잠금(LOCKED 태그)을 해제했습니다."
 End Sub
 ```
-::sp2
+::sp3
 
 - 2번 표준 모듈 <br>
 ```vb
@@ -95,7 +95,7 @@ Sub StartLockMonitor()
 End Sub
 ```
 
-::sp2
+::sp3
 
 - 클래스 모듈 <br>
 ```vb
@@ -120,7 +120,7 @@ Private Sub App_WindowSelectionChange(ByVal Sel As Selection)
 End Sub
 ```
 
-::sp2
+::sp3
 
 방식은 
 - 1번 표준 모듈의 `MarkSelectedShapesAsLocked` 로 선택한 도형에 마킹을 한다.
@@ -130,10 +130,10 @@ End Sub
 해제를 원한다면,
 - 1번 표준모듈의 `UnlockLockedShapesOnCurrentSlide` 또는 `UnlockAllLockedShapes` 를 사용한다. 
 - 선택된 슬라이드만 해제할지 전체를 해제할지에 따라 나뉜다.
-::sp2
+::sp3
 
 작동은 하지만, 사용하려면, 적어도 선택/시작/해제 버튼이 3개나 필요하므로.. 그냥 냅두기로 한다.
 ::sp 
 이상 끝.
 
-::sp2
+::sp3

@@ -29,7 +29,7 @@ xlookup이 나오기 전까지는 조건보다 좌측에 위치한 컬럼값을 
 ::sp
 예시를 보면, 아래의 그림 중 서울 지역의 학생수를 찾으려고 한다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_01.jpg)
-::sp2
+::sp3
 
 
 ### VLOOKUP과 MATCH함수
@@ -42,7 +42,7 @@ MATCH함수는 사실 영역 내에서 값이 몇번째인지 나타내는 함�
 =VLOOKUP(H2,B3:E6,MATCH(H3,B2:E2,0),FALSE)
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_02.jpg)
-::sp2
+::sp3
 
 HLOOKUP은 VLOOKUP과 사용방법은 동일하다. 단, 이번에는 MATCH함수로 조건1에 대한 행번호를 찾아내는 것이고, <br>
 HLOOKUP의 행을 찾는데 쓴다는 점이 되겠다. 다른 사항은 VLOOKUP + MATCH와 동일하다. <br>
@@ -52,7 +52,7 @@ HLOOKUP의 행을 찾는데 쓴다는 점이 되겠다. 다른 사항은 VLOOKUP
 =HLOOKUP(H3,C2:E6,MATCH(H2,B2:B6,0),FALSE)
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_03.jpg)
-::sp2
+::sp3
 
 VLOOKUP이나 HLOOKUP은 기준이 되는 조건열이나 행이 맨 앞에 있어야 한다는 전제가 있다. <br>
 INDEX + MATCH는 그 단점을 보완해 줄 수 있다. <br>
@@ -65,8 +65,8 @@ INDEX(영역, X, Y) 가 되겠다.
 =INDEX(C3:E6,MATCH(H2,B3:B6,0),MATCH(H3,C2:E2,0))
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_04.jpg)
-::sp2
-::sp2
+::sp3
+::sp3
 
 :::youtube g9wcalBgw2E
 
@@ -83,10 +83,10 @@ SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사�
 단, SUM배열은 엔터대신 컨트롤+쉬프트 엔터를 눌러서 배열함수로 만들어줘야 한다. <br>
 - 구글 시트에서는 arrayformula 함수로 처리를 한다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_05.jpg)
-::sp2
+::sp3
 
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_06.jpg)
-::sp2
+::sp3
 
 
 ### sum 배열에서 와일드카드 문자 사용
@@ -94,7 +94,7 @@ sumif와 sum배열 두 가지 함수 사용에 있어 차이는 뭐라고 생각
 개인적인 생각은 sumif는 조건에 와일드카드문자(*)를 사용할 수 있다는 장점을 가지고, <br>
 sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 있다는 장점을 가지는 정도겠다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_07.jpg)
-::sp2
+::sp3
 
 배열함수 내에서, find함수를 사용해서 와일드카드문자(여기서는 *)를 대체해서 사용하는 방법이었다. <br>
 아래 표에서, 입금은행이 <br>
@@ -107,7 +107,7 @@ sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 
 - 결과가 0일 경우(같은 값이 없을 경우)IF 함수에서 FALSE 값인 "우리은행"을 반환하고, <br>
 - 결과가 1 이상일 경우(같은 값이 있을 경우),IF 함수의 TRUE 값을 반환하게 된다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_08.jpg)
-::sp2
+::sp3
 
 ### 배열수식에서 영역참조 사용
 위에서는 단일 셀값에 대한 처리였다면, <br>
@@ -119,38 +119,38 @@ sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 
 ** 은행이름이 앞 두자리만 있으므로 조건에 와일드카드 문자 사용이 필요하다. <br>
 ** 위 테이블에서 은행이름열은 '은행' , 금액은 '금액' 으로 영역에 대한 이름정의를 해두었다.<br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_09.jpg)
-::sp2
+::sp3
 
 
 두 가지 방법 중 뭘 사용해도 값은 동일하게 나온다. 사용된 수식을 살펴본다.<br>
 ::sp
 - SUMIF 수식은 간단하다. 와일드카드문자를 &로 연결해서 사용하였다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_10.jpg)
-::sp2
+::sp3
 
 - SUM 배열수식은 FIND 함수와 ISERROR함수, NOT함수를 연결해서 사용하였다. <br>
 - FIND에서 발생한 에러(#VALUE)는 ISERROR 함수에 의해 TRUE가 되고, 숫자 값은 FALSE가 된다. <br>
 - NOT으로 TRUE와 FALSE를 서로 바꿔준다. <br>
 ** iserror/not 함수를 isnumber 함수로 간략하게 처리도 가능하다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_11.jpg)
-::sp2
+::sp3
 
 ### 배열수식 - 영역참조 - 다중조건
 위의 예시정도라면, 구지, 복잡한 함수들을 동원해서 수식을 작성할 필요가 없다. <br>
 아래와 같은 경우는 어떨까? <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_12.jpg)
-::sp2
+::sp3
 
 [23일 기업은행 입금금액] <br>
 위에 작성된 배열수식을 2가지 조건으로 연결하였다. 23일은 일자를 텍스트형태로 바꿔서 조건을 달아주었다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_13.jpg)
-::sp2
+::sp3
 
 [금요일 우리은행 또는 기업은행 입금금액] <br>
 : 위와 마찬가지로 2가지 조건으로 연결하였다. 금요일은 일자를 텍스트형태로 바꿔서 조건을 달아주었다. <br>
 : 은행이름은 find 함수에 배열을 넣는 방식으로 두가지 경우를 모두 포함하도록 하였다. <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_14.jpg)
-::sp2
+::sp3
 
 끝.
-::sp2
+::sp3

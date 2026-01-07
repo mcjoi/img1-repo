@@ -23,7 +23,7 @@ PDF파일에서 테이블을 추출하기 위해 OCR을 사용하거나, CSV로 
 - PDF의 테이블은 테이블 형태의 데이터가 아니라 `텍스트 + 이미지(라인)`이기 때문에 벌어지는 현상으로 추정된다.
 현재까지 사용해본 방법중에서는 `python`의 `camelot` 패키지가 가장 우수한 결과를 보여주기 때문에 이를 활용한 추출 코드 예시를 남긴다. <br>
 - PDF 파일을 선택하면, 테이블이 있는 페이지에 대하여, 각 시트별로 테이블을 작성해준다.
-::sp2
+::sp3
 `code sample`
 ```python
 import camelot
@@ -75,4 +75,4 @@ with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
 print(f"Excel file saved successfully: {excel_file}")
 
 ```
-::sp2
+::sp3

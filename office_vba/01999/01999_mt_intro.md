@@ -23,10 +23,10 @@ tags:
 ::sp
 - 엑셀 : `excel add-in userform xla` <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office_vba/01999/01999_macrotoolkit_1.webp)
-::sp2
+::sp3
 - 파워포인트 : `powerpoint add-in ppam` <br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office_vba/01999/01999_macrotoolkit_2.webp)
-::sp2
+::sp3
 ## Things to Know 
 - 엑셀은 VBA 사용 이후 `UNDO(ctrl + z)`가 적용되지 않는다. 따라서, 기능이 익숙해지지 않았다면 사용전에 엑셀 파일을 다른이름으로 저장하고 사용하는 것을 추천한다.
 - 모든 상황에 대한 예외 처리가 되어있지는 않기 때문에, 정해진 조건 내에서 사용하지 않을 경우, 에러가 날 수 있다.
@@ -34,17 +34,17 @@ tags:
 - PC에 해가 될 수 있는 그 어떤 코드도 포함되어있지 않다.
 - VBA 코드에는 암호가 걸려있다. 큰 의미는 없다.
 - 개인적으로 필요한 기능을 모아두었을 뿐, 상황에 따라 추가로 필요한 기능이 있다면 `chaGPT`와 함께 직접 만들어 보는 것을 추천한다. 
-::sp2
+::sp3
 ## File download & tutorial
 아래 깃 허브 경로에서 다운 받을 수 있다.
 :::btn https://github.com/mcjoi/office_macro_toolkit/ github download
 :::btn https://sunny-bong.web.app/post/01995 VBA사용법
-::sp2   
+::sp3   
 
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 # excel
 ## Scripts & Tutorial
@@ -55,7 +55,7 @@ tags:
 :::youtube t1klJxLVnJk
 ::sp
 
-::sp2
+::sp3
 
 ## Cell format Script
 ### cell outline (1) : lineGray
@@ -90,7 +90,7 @@ Copy the color of the selected cell and paste it to the cell that is selected.
 ### copyWidthHeight
 Copy the width & height of the selected cell and paste it to the cell that is selected.
 
-::sp2   
+::sp3   
  
 ## Value format Script
 ### Number format (1) - formatNum_normal
@@ -119,7 +119,7 @@ Delete hyperlinks. The format is all erased together.
 ### delBlank
 Delete all the spaces of the selected cell.
 
-::sp2   
+::sp3   
 
 ## Function Script
 ### savebysheetname
@@ -141,7 +141,7 @@ clear all filters.
 Set the font of active sheet to "Segoe UI" 10pt.  
 → if using Korean apply "Malgun Gothic"
 
-::sp2   
+::sp3   
 
 ## Data Util Script
 ### Calculation (1) - growthRate
@@ -184,7 +184,7 @@ split text from pdf table.
 ### dietFileSize
 Excel file size diet. check all sheet and clear.
 
-::sp2   
+::sp3   
 
 ## Version History
 대충 의미있는 업데이트만 정리를 해본다.  <br>
@@ -192,9 +192,9 @@ Excel file size diet. check all sheet and clear.
 `v0.28(23.09)` - Add language(Eng.) <br>
 `v0.10(21.07)` - first init
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 # powerpoint
 ## Sctipt-table
@@ -208,7 +208,7 @@ Adjusts table size via UserForm. <br>
 ### delblank
 Removes blanks created when copying tables in Excel; note it removes all spaces in the table
 
-::sp2
+::sp3
 
 ## Sctipt-color
 ### RGB_color
@@ -217,7 +217,7 @@ Displays RGB values of the selected shape via UserForm. <br>
 ::sp
 ### Color_palette
 Creates a color palette in the slide master - newly added feature.
-::sp2
+::sp3
 
 ## Sctipt-text
 ### Text arrange
@@ -226,7 +226,7 @@ Adjusts letter spacing of `Malgun Gothic` font to 0.3.
 ### zeromargin
 Sets margins of text boxes or shapes to zero.
 
-::sp2
+::sp3
 
 
 ## Sctipt-slide
@@ -239,7 +239,7 @@ Changes slide size based on pixel dimensions.
 ### groupRelease
 Ungroups all groups on all slides at once.
 
-::sp2
+::sp3
 
 ## Sctipt-shape
 ### align_bottom
@@ -250,4 +250,4 @@ Aligns selected shape(s) to the right of the first selected shape.
 ### guidebox
 Creates guide boxes (rectangles) spaced at regular intervals.
 
-::sp2
+::sp3

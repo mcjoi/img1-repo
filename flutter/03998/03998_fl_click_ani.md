@@ -23,9 +23,9 @@ Windows has a long history, but since Vista, I haven’t really come across prog
 ::sp
 Still, I decided to give it a try.  
 
-::sp2
+::sp3
 ***
-::sp2  
+::sp3  
 
 ## Two Scenarios
 - #1 Send the click coordinates from Windows to Flutter <br>  
@@ -40,9 +40,9 @@ Flutter plays the animation, and the coordinates sent to Windows trigger the act
 ::sp
 These are simple scenarios, but ChatGPT recommended #2. Following that advice led to a few days of trial and error. Eventually, I realized that #1 is the reliable approach.  
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 ## Win32 and FFI
 On Flutter Android, whenever you try to do anything, you often need to touch native code—and it can easily break. Windows is no different: you have to deal with C++.  
@@ -51,9 +51,9 @@ There are two ways to do this: write everything in Dart, or build a C++ DLL in V
 ::sp
 Since I had no idea if it would even work, I did it for fun. Otherwise, I would have given up immediately.  
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 ## Scenario Details
 - Flutter runs the DLL file.
@@ -61,16 +61,16 @@ Since I had no idea if it would even work, I did it for fun. Otherwise, I would 
 - Flutter reads the coordinates from the text file and uses them to determine where to play the animation.
 - The Flutter app runs fullscreen with a transparent background, in the background.
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 ## Packages Used
 For controlling the DLL, we just import io and ffi. For window management, we use window_manager. To play animations, we use the lottie package.
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 ## Calling the DLL
 The DLL must be executed from main(). I didn’t know why, but following ChatGPT’s instructions, it should be defined like this.
@@ -87,9 +87,9 @@ final StartHookThreadDart startHookThread = dylib
  
 startHookThread();
 ```
-::sp2
+::sp3
 ***
-::sp2
+::sp3
  
 ## Lottie Animation
 Rive provides incredible features, but Lottie just runs animations—and that’s perfect. You don’t need a full authoring tool like Rive to create animations; After Effects and Bodymovin can handle it.  
@@ -353,9 +353,9 @@ class _ClickEffect {
 }
 ```
 
-::sp2
+::sp3
 ***
-::sp2
+::sp3
 
 ### Result
 For click motions, a simple one-time animation is enough. You don’t need Rive animations, and LottieFiles provides animations you can download and use easily without much effort.  
@@ -369,4 +369,4 @@ No. That was just my thought process—so let’s leave it cleanly here.
 ::sp
 The End.  
 
-::sp2
+::sp3

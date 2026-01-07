@@ -21,7 +21,7 @@ tags:
 개인적으로 DB를 사용하기 부담이 되는 경우가 많아 `Google Sheets API`를 자주 사용하곤 하는데, 최근 웹퍼블리싱을 하는 경우, 개발자 모드에서 나의 `API key`가 그대로 노출이 된다는 사실을 알게 되었다.
 ::sp
 알게 되서 다행이다 라는 생각보다는... 아놔 귀찮다... 라는 생각이 먼저 드는건 왜일까..
-::sp2
+::sp3
 
 ### .env로 처리
 뭐 대단한 정보를 가지고 있거나, 처리하지는 않겠지만, 그래도 몰랐으면 모를까.. 이미 알게 되었었으니, 그 중 가장 간단한 방법을 선택하여 처리를 해본다. 
@@ -29,7 +29,7 @@ tags:
 이게 맞는지 모르겠지만, `.env` 파일을 생성하고, 플러터의 `dot_env` 패키지를 사용해서 파일을 읽으면 끝이다. 정상작동까지는 확인했지만, 보안이란게 그렇지 않은가?
 ::sp
 완벽한 방법은 없다.
-::sp2
+::sp3
 
 ### .env 파일을 구성하는 방법 
 의외의 어려움은 .env 파일을 구성할 때 나타났는데, `API key` 에는 `\n`을 처리해야하는 부분이 있는데, `json` 구성과 `.env` 파일 구성은 chatGPT에게 템플릿을 만들어 달라고 하는 것이 여러모로 안전하다.
@@ -53,15 +53,15 @@ var cremap = {
 var cremapJson = jsonEncode(cremap);
 final gsheets = GSheets(cremapJson);
 ```
-::sp2
+::sp3
 
 - .env file
 ```dart
 type = service_account
 private_key = "-----BEGIN PRIVATE KEY-----\nMI
 ```
-::sp2
+::sp3
 
 딱히 특별한 것은 없다.
 
-::sp2
+::sp3

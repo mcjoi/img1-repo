@@ -89,7 +89,7 @@ Function XLOOKUP(ByVal lookup_value As Variant, _
     XLOOKUP = if_not_found
 End Function
 ```
-::sp2
+::sp3
 
 ### 사용방법
 argument의 구성은 다음과 같다. 친절하게 주석도 달아주는 것이 아주 좋다.
@@ -107,8 +107,8 @@ return_array : 반환할 값이 있는 배열
 아래 그림을 보자. <br>
 gender를 기준으로 값을 왼쪽 열에서 불러오는 예시와, 가로 방향으로 데이터가 있을때 불러오는 예시이다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00994/00994_01.webp)
-::sp2
+::sp3
 
 자... 이제 엑셀 능력자들이 소멸하는 일만 남은 것이다. <br>
 끝.
-::sp2
+::sp3

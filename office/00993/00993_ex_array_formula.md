@@ -31,7 +31,7 @@ sum 함수의 인수는 단일 값들일 수 있고, 영역을 선택한 여러 
 ```
 sum 함수를 사용하는 당신은 이미 배열을 사용하고 있다는 뜻이다.
 
-::sp2
+::sp3
 
 ### 배열수식(arrayformula)
 일반적으로 배열수식이라 하면, 대표적으로 sum + if 문으로 구성된 수식에 배열수식 처리(ctrl + enter)를 해준 수식을 말하는데, 다른 함수에 비해, 특별 대우를 받는 셈이다. <br>
@@ -47,7 +47,7 @@ a1:b2 array에서 true인 1, 3번째이므로, 위의 if문이 반환하는 배�
 즉, 배열로 반환되는 값을 배열로 인식시키는 것이 배열수식의 역할이다.
 - 구글 시트에서는 배열수식 처리 방식이 엑셀과 좀 다른데, arrayformula 라는 함수를 사용하며, 그렇지 않을 경우, 오류가 난다. 엑셀에서는 오류가 나지 않고, 첫번째 값으로 계산이 되어버리기 때문에, 제대로 처리 되어있는지 {=수식} 형태를 확인해줘야 한다.
 
-::sp2
+::sp3
 
 ### 배열수식의 응용
 위의 수식을 천천히 보면, if 함수의 결과를 배열로 만들어야 하는 이유는 조건 값이 여러 값(여기서는 영역)으로 지정이 되어 있기 떄문이다. 여러 값에 대하여 조건이 참인지 거짓인지에 따라 if문은 새로운 배열을 만드는 과정이다.
@@ -71,7 +71,7 @@ a1:b2 array에서 true인 1, 3번째이므로, 위의 if문이 반환하는 배�
 ::sp
 엑셀에서의 상황을 생각해보면.. a, b, c 컬럼이 있다면, a, b 컬럼의 조건을 만족하는 c 컬럼의 값을 합산하는 수식을 만들 수 있다는 것이다.
 
-::sp2
+::sp3
 
 ### 예제
 mtcars 데이터 셋을 가지고 간단한 연습을 해본다. 컬럼 이름은 사전에 이름정의를 해두었다.
@@ -82,21 +82,21 @@ mtcars 데이터 셋을 가지고 간단한 연습을 해본다. 컬럼 이름�
 {=SUM(IF(carb=4,1))} 'result : 10
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_1.webp)
-::sp2
+::sp3
 
 - 조건에 맞는 배열의 합계 구하기 : carb 컬럼 값이 "4" 인 model의 gear 값 합계
 ```vb
 {=SUM(IF(carb=4,gear))} 'result : 36
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_2.webp)
-::sp2
+::sp3
 
 - 특정 글자가 포함된 조건 사용(와일드 카드 문자) : model에 "Merc" 문자열이 포함되고, carb가 "4" 인 model 의 gear 값 합계
 ```vb
 {=SUM(IF(ISNUMBER(FIND("Merc", model))*(carb=4),gear))} 'result : 8
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_3.webp)
-::sp2
+::sp3
 
 
 - 특정 글자가 포함된 조건 사용(와일드 카드 문자) + or 옵션 : model에 "Merc" 또는 "Mazda" 문자열이 포함되고, carb가 "4" 인 model 의 gear 값 합계
@@ -107,14 +107,14 @@ mtcars 데이터 셋을 가지고 간단한 연습을 해본다. 컬럼 이름�
 {=SUM(IF( ISNUMBER(FIND({"Merc","Mazda"}, model)) * (carb=4), gear))} 'result : 16
 ```
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00993/00993_4.webp)
-::sp2
+::sp3
 
 
 몇 가지 예제를 적었지만, 기호에 따라 다양한 함수 또는 조건을 넣을 수 있다. 개인적으로 sumifs 보다 자유도가 높다는 점에서 선호하는 방식이기도 하다.
-::sp2
+::sp3
 
 :::youtube 0t6c3R3-B9U
 
-::sp2
+::sp3
 끝.
-::sp2
+::sp3
