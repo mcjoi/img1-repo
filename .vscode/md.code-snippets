@@ -50,7 +50,13 @@
 			"<br>"			
 		],
 		"description": "br"
-	}
+	},
+
+	  "Insert br": {
+    "prefix": "br",
+    "body": ["<br>"],
+    "description": "Insert HTML line break"
+  }
 
 
 
