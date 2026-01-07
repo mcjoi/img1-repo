@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: 블로그 이사(티스토리 → gitpages) 
+title: 블로그 이사(티스토리 → ?) 
 slug: '05998'
 date: 2025-12-29
 # updated: 2025-12-22 # 미설정
