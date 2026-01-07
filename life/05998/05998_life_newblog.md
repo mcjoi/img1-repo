@@ -57,11 +57,11 @@ tags:
 크게 UI/POST파트와 STORAGE파트로 구분을 해보자. 이 두가지가 어떤 서비스를 사용하게 되는지에 따라 차이가 많이 발생할 것으로 예상된다.
 ::sp
 ### Hugo + Github pages
-UI/POST - Hugo <br>
+- UI/POST - Hugo <br>
 Hugo는 정적사이트 생성기 중에서도 난이도가 쉽다고 알려져 있는데, 역시 티스토리만 쓰던 나에게는 이 또한 쉽지가 않다. 특히 Go 언어로 설계된 커스텀 부분은 주어진 템플릿과 뒤죽박죽이 될 수 있기 때문에 정리력이 필요하다. <br>
 그럼에도 아주 손쉽게 블로그를 구현할 수 있었고, 이미 만들어진 템플릿도 상당히 고급스럽고, 나무랄 곳이 없었다. <br>
 ::sp
-Storage - Github pages <br>
+- Storage - Github pages <br>
 한 세트로 움직이기 때문에 Github pages와의 궁합이 아주 좋다. 딱히 불편한 점이 없다.
 ::sp
 이를 통해서 새로운 블로그의 세팅을 SEO까지 전부 완료를 했었는데, flutter로 직접 만들면 어떨까 싶어서, 만들어 둔 내용을 삭제했다. 아니 실수로 삭제를 해버렸다. 여전히 후회스러운 부분이다. 
@@ -69,20 +69,20 @@ Storage - Github pages <br>
 ::sp2
 
 ### flutter web + Github pages
-UI/POST - flutter <br>
+- UI/POST - flutter <br>
 flutter web으로 블로그를 만드니, 템플릿은 전혀 필요없다. 자유도가 매우 높아진다. <br>
 설계를 할때, POST는 Hugo와 마찬가지로 Markdown으로 작성하도록 했다. <br>
 Markdown 렌더링이 기본으로 다양하게 탑재된 Hugo와는 다르게, flutter는 최소한만 지원하는 관계로, 커스텀이 필요하다.
 ::sp
-Storage - Github pages <br>
+- Storage - Github pages <br>
 애석하게도 flutter web을 사용하면, post의 주소체계가 엉망이 된다. 일단, flutter web이 단일 페이지 웹사이트이기 때문에 하위 post 주소를 인식시키기 정말 어렵다. <br>
 SEO에 불리하다는 이유 때문에, 여기서 포기했다.
 ::sp2
 
 ### flutter web + firebase hosting
-UI/POST - flutter <br>
+- UI/POST - flutter <br>
 위와 동일하다. 
-Storage - firebase hosting <br>
+- Storage - firebase hosting <br>
 몇 가지 잔잔한 설정만 해주면 아주 손쉽게 사용이 가능하다. 특히 Github pages 와 다르게 각각의 post에 대한 라우팅을 지원해서, 주소체계를 익숙한 형태로 컨트롤 할 수 있다.
 
 ## 정리
