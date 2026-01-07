@@ -26,7 +26,7 @@ tags:
 
 ### VBA코드
 VBA사용 코드를 모르는 경우, 아래 글을 참고한다.
-:::btn https://sunny-bong.web.app/post/1996 VBA사용법
+:::btn https://sunny-bong.web.app/post/01995 VBA사용법
 
 ::sp2
 vba에 표준 모듈 2개와 클래스 모듈 1개를 만든다. 클래스 모듈의 이름을 `clsPPTEvent` 로 한다.

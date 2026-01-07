@@ -38,7 +38,7 @@ tags:
 ## File download & tutorial
 아래 깃 허브 경로에서 다운 받을 수 있다.
 :::btn https://github.com/mcjoi/office_macro_toolkit/ github download
-:::btn https://sunny-bong.web.app/post/1995 VBA사용법
+:::btn https://sunny-bong.web.app/post/01995 VBA사용법
 ::sp2   
 
 
