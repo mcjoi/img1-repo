@@ -39,7 +39,7 @@ MATCH함수로 조건2에 대한 열번호를 알아낸 다음, VLOOKUP의 열�
 MATCH함수는 사실 영역 내에서 값이 몇번째인지 나타내는 함수로, 만약 혼자 엑셀을 상식선에서 쓰고 있다면 죽었다 깨나도 써먹을 일이 없을 함수이기도 하다. <br>
 - MATCH(찾을값,배열,정확한값을찾을지여부) <br>
 &nbsp; <br>
-수식은 아래와 같다. VLOOKUP의 열변수를 적는 곳에 MATCH함수를 넣어주면 된다.
+수식은 아래와 같다. VLOOKUP의 열변수를 적는 곳에 MATCH함수를 넣어주면 된다.<br>
 ```vb
 =VLOOKUP(H2,B3:E6,MATCH(H3,B2:E2,0),FALSE)
 ```
@@ -51,7 +51,7 @@ MATCH함수는 사실 영역 내에서 값이 몇번째인지 나타내는 함�
 HLOOKUP은 VLOOKUP과 사용방법은 동일하다. 단, 이번에는 MATCH함수로 조건1에 대한 행번호를 찾아내는 것이고, <br>
 HLOOKUP의 행을 찾는데 쓴다는 점이 되겠다. 다른 사항은 VLOOKUP + MATCH와 동일하다. <br>
 &nbsp; <br>
-수식은 아래와 같다.
+수식은 아래와 같다.<br>
 ```vb
 =HLOOKUP(H3,C2:E6,MATCH(H2,B2:B6,0),FALSE)
 ```
@@ -63,10 +63,10 @@ HLOOKUP의 행을 찾는데 쓴다는 점이 되겠다. 다른 사항은 VLOOKUP
 VLOOKUP이나 HLOOKUP은 기준이 되는 조건열이나 행이 맨 앞에 있어야 한다는 전제가 있다. <br>
 INDEX + MATCH는 그 단점을 보완해 줄 수 있다. <br>
 INDEX함수는 선택 영역에서 X번행(ROW), Y번째열(COLUMN) 값을 반환한다. <br>
-INDEX(영역, X, Y) 가 되겠다. 
+INDEX(영역, X, Y) 가 되겠다. <br>
 &nbsp; <br>
 
-수식은 아래와 같다.
+수식은 아래와 같다.<br>
 ```vb
 =INDEX(C3:E6,MATCH(H2,B3:B6,0),MATCH(H3,C2:E2,0))
 ```
@@ -106,7 +106,7 @@ SUMPRODUCT와 SUM배열함수로 특정 값을 찾는 두개 방법은 그 사�
 ### sum 배열에서 와일드카드 문자 사용
 sumif와 sum배열 두 가지 함수 사용에 있어 차이는 뭐라고 생각이 들지 모르겠다. <br>
 개인적인 생각은 sumif는 조건에 와일드카드문자(*)를 사용할 수 있다는 장점을 가지고, <br>
-sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 있다는 장점을 가지는 정도겠다.
+sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 있다는 장점을 가지는 정도겠다.<br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00996/00996_07.jpg)
 &nbsp; <br>
 &nbsp; <br>
@@ -116,7 +116,7 @@ sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 
 아래 표에서, 입금은행이 <br>
 - 국민/기업은행 이면 "국민은행 또는 기업은행" 표시 <br>
 - 우리은행 이면 "우리은행" 으로 표시 <br>
-하려고 한다.
+하려고 한다.<br>
 &nbsp; <br>
 사용된 수식을 보면 입금은행 셀에서 "국민" 또는 "기업" 문자열을 FIND 함수로 찾고, <br>
 이를 COUNT 함수로 에러가 아닌값을 숫자로 변환, <br>
@@ -181,7 +181,6 @@ sum배열수식은 조건을 정의하기 위해 다른 함수를 사용할 수 
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
-
 끝.
 &nbsp; <br>
 &nbsp; <br>

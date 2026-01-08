@@ -20,20 +20,20 @@ tags:
 
 ### 도형 잠그기
 오피스365에는 도형 잠그기 기능이 있어 배경 등으로 사용된 박스, 이미지가 선택되지 않도록 할 수 있다. <br>
-애석하게도 오피스2019버전에는 도형 잠그기 기능이 없는데.. 우회하는 방법으로 비슷하게 사용은 할 수 있다.
+애석하게도 오피스2019버전에는 도형 잠그기 기능이 없는데.. 우회하는 방법으로 비슷하게 사용은 할 수 있다.<br>
 
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
 
 ### VBA코드
-VBA사용 코드를 모르는 경우, 아래 글을 참고한다.
+VBA사용 코드를 모르는 경우, 아래 글을 참고한다.<br>
 :::btn https://sunny-bong.web.app/post/01995 VBA사용법
 
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
-vba에 표준 모듈 2개와 클래스 모듈 1개를 만든다. 클래스 모듈의 이름을 `clsPPTEvent` 로 한다.
+vba에 표준 모듈 2개와 클래스 모듈 1개를 만든다. 클래스 모듈의 이름을 `clsPPTEvent` 로 한다.<br>
 &nbsp; <br>
 - 1번 표준 모듈 <br>
 ```vb
@@ -132,21 +132,21 @@ End Sub
 &nbsp; <br>
 &nbsp; <br>
 
-방식은 
-- 1번 표준 모듈의 `MarkSelectedShapesAsLocked` 로 선택한 도형에 마킹을 한다.
-- 2번 표준 모듈의 `StartLockMonitor` 로 모니터링을 시작한다.
+방식은 <br>
+- 1번 표준 모듈의 `MarkSelectedShapesAsLocked` 로 선택한 도형에 마킹을 한다.<br>
+- 2번 표준 모듈의 `StartLockMonitor` 로 모니터링을 시작한다.<br>
 &nbsp; <br>
 
-해제를 원한다면,
-- 1번 표준모듈의 `UnlockLockedShapesOnCurrentSlide` 또는 `UnlockAllLockedShapes` 를 사용한다. 
-- 선택된 슬라이드만 해제할지 전체를 해제할지에 따라 나뉜다.
+해제를 원한다면,<br>
+- 1번 표준모듈의 `UnlockLockedShapesOnCurrentSlide` 또는 `UnlockAllLockedShapes` 를 사용한다. <br>
+- 선택된 슬라이드만 해제할지 전체를 해제할지에 따라 나뉜다.<br>
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
 
-작동은 하지만, 사용하려면, 적어도 선택/시작/해제 버튼이 3개나 필요하므로.. 그냥 냅두기로 한다.
+작동은 하지만, 사용하려면, 적어도 선택/시작/해제 버튼이 3개나 필요하므로.. 그냥 냅두기로 한다.<br>
 &nbsp; <br> 
-이상 끝.
+이상 끝.<br>
 
 &nbsp; <br>
 &nbsp; <br>
