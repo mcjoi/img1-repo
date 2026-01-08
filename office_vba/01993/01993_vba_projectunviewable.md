@@ -20,7 +20,7 @@ tags:
 
 ## Project is unviewable
 가끔 VBA add-in 코드를 확인하다보면, Project is unviewable이라고 메시지창이 뜨면서, 코드 확인이 불가능한 파일들이 있다. <br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/01993/01993_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office_vba/01993/01993_01.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
@@ -44,7 +44,7 @@ EvilClippy.exe -u yourmacrofile.XXX
 ```
 &nbsp; <br>
 대략 아래와 같은 구성이 될 것이다. <br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/01993/01993_02.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office_vba/01993/01993_02.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
