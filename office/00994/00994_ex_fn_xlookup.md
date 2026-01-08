@@ -19,11 +19,11 @@ tags:
 ### xlookup
 가끔 MS365에만 업데이트를 해주는 함수가 사용하고 싶을때가 있다. <br>
 뭐가 문제인가. ai에게 만들어달라고 하면 된다.
-::sp
+&nbsp; <br>
 아래 함수는 xlookup 함수의 생성코드이다. <br>
 단 한번의 시도로 성공했다. <br>
 사용자 함수로 저장을 해두면, 언제든 사용이 가능하다.
-::sp
+&nbsp; <br>
 - 코드 샘플 <br>
 ```vb
 Function XLOOKUP(ByVal lookup_value As Variant, _
@@ -89,7 +89,9 @@ Function XLOOKUP(ByVal lookup_value As Variant, _
     XLOOKUP = if_not_found
 End Function
 ```
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 
 ### 사용방법
 argument의 구성은 다음과 같다. 친절하게 주석도 달아주는 것이 아주 좋다.
@@ -101,14 +103,18 @@ return_array : 반환할 값이 있는 배열
 (option) match_mode : 0 = 정확히 일치, 1 =정확히 다음 큰 값, -1 = 정확히 다음 작은 값
 (option) search_mode : 1 = 첫번째부터, -1 = 마지막부터
 ```
-::sp
+&nbsp; <br>
 그런데 수식을 곰곰히 보니... index, match 함수의 사용방식인 듯하다. <br>
-::sp
+&nbsp; <br>
 아래 그림을 보자. <br>
 gender를 기준으로 값을 왼쪽 열에서 불러오는 예시와, 가로 방향으로 데이터가 있을때 불러오는 예시이다.
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/office/00994/00994_01.webp)
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 
 자... 이제 엑셀 능력자들이 소멸하는 일만 남은 것이다. <br>
 끝.
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>

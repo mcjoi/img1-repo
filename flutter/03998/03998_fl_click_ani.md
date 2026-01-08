@@ -18,67 +18,77 @@ tags:
 
 ## What is it?
 Adding mouse click or touch motion in a Flutter app is no big deal. But what about apps running on Windows 10? If you can use Lottie animations, you could turn boring click motions into something that feels like a macOS app…  
-::sp
+&nbsp; <br>
 Windows has a long history, but since Vista, I haven’t really come across programs or open-source projects that deal with click animations. Sure, it’s mostly a trivial feature, but the built-in Windows functionality is just… terrible.  
-::sp
+&nbsp; <br>
 Still, I decided to give it a try.  
-
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3  
-
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>  
 ## Two Scenarios
 - #1 Send the click coordinates from Windows to Flutter <br>  
 ```text
 You run the Flutter app as an invisible layer, and when click coordinates are received, it plays an animation.
 ```
-::sp
+&nbsp; <br>
 - #2 Send the clicked coordinates from Flutter to Windows <br>  
 ```txt
 Flutter plays the animation, and the coordinates sent to Windows trigger the actual click.
 ```
-::sp
+&nbsp; <br>
 These are simple scenarios, but ChatGPT recommended #2. Following that advice led to a few days of trial and error. Eventually, I realized that #1 is the reliable approach.  
-
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
-
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ## Win32 and FFI
 On Flutter Android, whenever you try to do anything, you often need to touch native code—and it can easily break. Windows is no different: you have to deal with C++.  
-::sp
+&nbsp; <br>
 There are two ways to do this: write everything in Dart, or build a C++ DLL in Visual Studio and call it from Flutter.  
-::sp
+&nbsp; <br>
 Since I had no idea if it would even work, I did it for fun. Otherwise, I would have given up immediately.  
-
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
-
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ## Scenario Details
-- Flutter runs the DLL file.
-- Windows, via the DLL, writes click coordinates to a text file whenever a click occurs.
-- Flutter reads the coordinates from the text file and uses them to determine where to play the animation.
-- The Flutter app runs fullscreen with a transparent background, in the background.
-
-::sp3
+- Flutter runs the DLL file. <br>
+- Windows, via the DLL, writes click coordinates to a text file whenever a click occurs. <br>
+- Flutter reads the coordinates from the text file and uses them to determine where to play the animation. <br>
+- The Flutter app runs fullscreen with a transparent background, in the background. <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
-
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ## Packages Used
 For controlling the DLL, we just import io and ffi. For window management, we use window_manager. To play animations, we use the lottie package.
-
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
-
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ## Calling the DLL
 The DLL must be executed from main(). I didn’t know why, but following ChatGPT’s instructions, it should be defined like this.
 ```dart
 typedef StartHookThreadC = Void Function();
 typedef StartHookThreadDart = void Function();
 ```
-::sp
+&nbsp; <br>
 You run the startHookThread function. Its only function is to save click coordinates in C:\temp. Flutter only reads the coordinates saved in the text file.  
 ```dart
 final dylib = DynamicLibrary.open('click_hooking.dll');
@@ -87,15 +97,19 @@ final StartHookThreadDart startHookThread = dylib
  
 startHookThread();
 ```
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
- 
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+
 ## Lottie Animation
 Rive provides incredible features, but Lottie just runs animations—and that’s perfect. You don’t need a full authoring tool like Rive to create animations; After Effects and Bodymovin can handle it.  
-::sp
+&nbsp; <br>
 By using a Stack with Positioned widgets, you can play click animations exactly where you want, ending this tedious setup.  
-::sp
+&nbsp; <br>
 First, here’s the `C++` source code that needs to be built as a `DLL` using Visual Studio.
 
 ```cpp
@@ -154,13 +168,13 @@ extern "C" __declspec(dllexport) void StartHookThread() {
     CreateThread(NULL, 0, HookThreadProc, NULL, 0, NULL);
 }
 ```
-::sp
+&nbsp; <br>
 On the Flutter side, there isn’t much to configure, but calling the `DLL` itself was a bit unfamiliar.  
-::sp
+&nbsp; <br>
 Also, even when using a dual-monitor setup, I limited the mouse click animation to appear only within the range from coordinate (0,0) up to 1920×1080.  
-::sp
+&nbsp; <br>
 For the Lottie animation specified in `assets/click2.json`, make sure to update the file name if necessary. Alternatively, you could add a feature to dynamically select different motions. Currently, the default animation duration is set to under 0.8 seconds. If you use a different animation length, you’ll need to adjust the duration code accordingly.  
-::sp
+&nbsp; <br>
 ```dart
 // main.dart
 import 'dart:async';
@@ -353,20 +367,25 @@ class _ClickEffect {
 }
 ```
 
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 ***
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
 
 ### Result
 For click motions, a simple one-time animation is enough. You don’t need Rive animations, and LottieFiles provides animations you can download and use easily without much effort.  
-::sp
+&nbsp; <br>
 The GIF below shows the result with a Lottie animation. The quality isn’t bad at all—though the GIF format makes it look slightly choppy.  
-::sp
+&nbsp; <br>
 Should I add a separate button to change the animation?  
 Should right-clicks have a separate animation?  
-::sp
+&nbsp; <br>
 No. That was just my thought process—so let’s leave it cleanly here.  
-::sp
+&nbsp; <br>
 The End.  
-
-::sp3
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
