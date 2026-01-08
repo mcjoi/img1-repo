@@ -4,7 +4,7 @@ title: QCY melobuds neo
 slug: '05992'
 date: 2025-11-08
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_04.png
 category: life
 tags:
   # - blog
@@ -32,13 +32,13 @@ QCY는 모든 고정관념을 바꿔놨다. 적어도 내 고정관념 속 가�
 ## QCY Melobuds neo
 넘버링은 31번이고, 제품명은 어딘가 따라 베낀 듯한 `melobuds neo`이다.<br>
 노란색 브랜드 컬러 박스는 적용되지 않았다.<br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_01.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_01.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
 점점 심플해지고 있던 pods 디자인을 네모 반듯하게 변형하고 투명하게 만들었는데,<br>
 참으로 촌스럽다고 생각한다. 과연 익숙해질 수 있을까?<br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_02.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_02.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
@@ -49,13 +49,13 @@ QCY는 모든 고정관념을 바꿔놨다. 적어도 내 고정관념 속 가�
 - 음질이 살짝 나아졌다는 점.
 ```
 정도이다.<br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_03.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_03.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
 LDAC 같은 프리미엄 기능이 적용된 제품을 살까 했지만,<br>
 기존 제품도 크게 불편함이 없었기에 후회는 없다.<br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_04.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_04.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
@@ -71,7 +71,7 @@ LDAC 같은 프리미엄 기능이 적용된 제품을 살까 했지만,<br>
 ```
 &nbsp; <br>
 만오천짜리 치고는 아주 나이스한 기능이라 하겠다.<br>
-![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_05.webp)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05992/05992_05.png)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
