@@ -22,6 +22,9 @@ tags:
 광각 렌즈(30mm 미만)는 이상하게, 해상력이 떨어져 보인다. <br>
 처음에는 lcd에서 확대를 하면, 확대되는 부분 자체가 50mm 이상의 렌즈보다 작은 부분이 확대되서인줄 알았다. <br>
 그런데, PC에서 봐도, 해상력이 좋다는 렌즈를 사용해도, 가까이서 촬영을 해도, 이상하게 화질이 떨어져 보이는 것을 피할수가 없다.<br>
+아래와 같이 꽤나 많은 보정?을 해야 뿌연 느낌이 상쇄된다.<br>
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05994/05994_01.png)
+![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05994/05994_02.webp)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
