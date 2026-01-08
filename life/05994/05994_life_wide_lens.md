@@ -4,7 +4,7 @@ title: 광각 렌즈와 해상력 그리고 후드
 slug: '05994'
 date: 2026-01-05
 # updated: 2025-12-22 # 미설정
-cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp
+cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05994/05994_01.png
 category: life
 tags:
   # - blog
