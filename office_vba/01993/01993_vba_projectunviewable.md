@@ -27,7 +27,7 @@ tags:
 ## EvilClippy
 유료 프로그램으로 하는 것인줄 알고 있었는데, 구글링을 하다가, 설정하는 프로그램을 찾았다. <br> 
 해당 코드로 protection 이외에 코드 난독화가 가능한것으로 보인다.<br>
-:::btn https://github.com/outflanknl/EvilClippy EvilCloppy github
+:::btn https://github.com/outflanknl/EvilClippy EvilClippy github
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
