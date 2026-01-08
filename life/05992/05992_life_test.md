@@ -21,8 +21,12 @@ tags:
 ### 고정 영역 캡쳐를 위한 창 사이즈 설정
 화면 캡쳐를 신나게 받다 보면 동일한 크기의 화면을 여러번 받아야할 때가 있는데, <br>
 고정 캡쳐 영역을 정해두고 창 사이즈를 맞춰주면 해당 작업이 편해진다. <br>
-<br>
-<br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+글을 작성합니다.
+&nbsp; <br>
+글을작성합니다.
 - list 여긴 안띄여 지네?
 <br>
 - list
@@ -32,4 +36,5 @@ tags:
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/00_img/00_noimage.webp)
 <br>
 <br>
+
 
