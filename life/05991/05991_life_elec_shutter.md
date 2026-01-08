@@ -2,7 +2,7 @@
 ### essential info 
 title: 전자셔터, 그리고 플리커(a7c2)
 slug: '05991'
-date: 2025-11-08
+date: 2025-08-13
 # updated: 2025-12-22 # 미설정
 cover: https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05991/05991_02.webp
 category: life
