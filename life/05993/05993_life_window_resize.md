@@ -24,17 +24,15 @@ tags:
 &nbsp; <br>
 어차피 윈도우즈의 기능이니, bat 파일과 powershell 코드를 사용한다. <br>
 bat 파일을 실행하면, 현재 창이 떠있는 프로그램 리스트가 나오니, 원하는 창의 번호를 선택한다. <br>
+&nbsp; <br>
 이후 위치값과 창 사이즈를 설정한다. 그냥 엔터를 치면 디폴트 값[대괄호 안의 값]이 정해지니, .ps1 파일 안에서 디폴트 값을 수정해두는 것이 좋다.<br>
 ![img](https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05993/05993_1.webp)
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
-
 아래 경로에서 다운받을 수 있다.
 :::btn https://github.com/mcjoi/_dev_factory/tree/33d114fffb5dae19367ca6657058747e8edfe9a1/window_resize window_resize
-
 &nbsp; <br>
-
 끝.
 &nbsp; <br>
 &nbsp; <br>
