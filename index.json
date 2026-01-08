@@ -261,6 +261,16 @@
       "md": "life/05991/05991_life_elec_shutter.md"
     },
     {
+      "slug": "05990",
+      "title": "풀프레임에서도 사용할만한 크롭렌즈인가 sigma 56.4",
+      "date": "2025-08-13",
+      "updated": "2025-08-13",
+      "excerpt": null,
+      "cover": "https://raw.githubusercontent.com/mcjoi/img1-repo/refs/heads/master/life/05991/05991_02.webp",
+      "path": "/post/05990",
+      "md": "life/05990/05990.md"
+    },
+    {
       "slug": "00999",
       "title": "엑셀 - 보이는 셀만 복사하기",
       "date": "2024-01-24",
