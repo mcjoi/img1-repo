@@ -1,6 +1,6 @@
 ---
 ### essential info 
-title: Project is unviewable : EvilClippy
+title: Project is unviewable - EvilClippy
 slug: '01993'
 date: 2026-01-08
 # updated: 2025-12-22
