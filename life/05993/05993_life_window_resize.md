@@ -18,7 +18,7 @@ tags:
 # draft: false #미설정
 ---
 
-### 고정 영역 캡쳐를 위한 창 사이즈 설정<br>
+### 고정 영역 캡쳐를 위한 창 사이즈 설정
 화면 캡쳐를 신나게 받다 보면 동일한 크기의 화면을 여러번 받아야할 때가 있는데, <br>
 고정 캡쳐 영역을 정해두고 창 사이즈를 맞춰주면 해당 작업이 편해진다. <br>
 &nbsp; <br>
@@ -33,7 +33,7 @@ bat 파일을 실행하면, 현재 창이 떠있는 프로그램 리스트가 �
 아래 경로에서 다운받을 수 있다.<br>
 :::btn https://github.com/mcjoi/_dev_factory/tree/33d114fffb5dae19367ca6657058747e8edfe9a1/window_resize window_resize
 &nbsp; <br>
-끝.
+끝.<br>
 &nbsp; <br>
 &nbsp; <br>
 &nbsp; <br>
