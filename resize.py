@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-TARGET_WIDTH = 702
+TARGET_WIDTH = 480
 ROOT_DIR = "zz_gallery"
 
 IMAGE_EXTENSIONS = (
@@ -22,7 +22,7 @@ def resize_images(root_dir):
 
             src_path = os.path.join(current_path, filename)
             name, _ = os.path.splitext(filename)
-            dst_path = os.path.join(current_path, f"{name}_702.jpg")
+            dst_path = os.path.join(current_path, f"{name}_480.jpg")
 
             # 이미 생성된 파일은 스킵
             if os.path.exists(dst_path):
