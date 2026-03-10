@@ -2,10 +2,10 @@ import os
 from PIL import Image
 
 TARGET_WIDTH = 480
-ROOT_DIR = "life/05999"
+ROOT_DIR = "life/05878"
 
 # 단일 파일 지정 (None이면 전체 폴더 처리)
-TARGET_FILE = "05999_vilt20_04.png"
+TARGET_FILE = "03.jpg"
 
 IMAGE_EXTENSIONS = (
     ".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tiff"
