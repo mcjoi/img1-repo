@@ -1,11 +1,8 @@
 import os
+import argparse
 from PIL import Image
 
 TARGET_WIDTH = 480
-ROOT_DIR = "life/05878"
-
-# 단일 파일 지정 (None이면 전체 폴더 처리)
-TARGET_FILE = "03.jpg"
 
 IMAGE_EXTENSIONS = (
     ".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tiff"
@@ -61,16 +58,27 @@ def resize_images(root_dir):
             resize_image(src_path)
 
 
+def main():
+    parser = argparse.ArgumentParser(description="이미지 480px 리사이즈")
+    parser.add_argument(
+        "path",
+        help="처리할 폴더 또는 파일 경로"
+    )
+
+    args = parser.parse_args()
+    target_path = args.path
+
+    if not os.path.exists(target_path):
+        raise FileNotFoundError(f"경로를 찾을 수 없습니다: {target_path}")
+
+    # 파일일 경우
+    if os.path.isfile(target_path):
+        resize_image(target_path)
+
+    # 폴더일 경우
+    elif os.path.isdir(target_path):
+        resize_images(target_path)
+
+
 if __name__ == "__main__":
-    if not os.path.isdir(ROOT_DIR):
-        raise FileNotFoundError(f"'{ROOT_DIR}' 폴더를 찾을 수 없습니다.")
-
-    if TARGET_FILE:
-        src_path = os.path.join(ROOT_DIR, TARGET_FILE)
-
-        if not os.path.isfile(src_path):
-            raise FileNotFoundError(f"파일을 찾을 수 없습니다: {src_path}")
-
-        resize_image(src_path)
-    else:
-        resize_images(ROOT_DIR)
+    main()
