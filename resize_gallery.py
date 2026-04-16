@@ -47,7 +47,7 @@ def resize_images(root_dir):
                     resized.save(
                         dst_path,
                         format="JPEG",
-                        quality=95,
+                        quality=100,
                         subsampling=0,
                         optimize=True
                     )
